@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   title: "Brian My — Growth Product Leader",
   description:
     "Senior Growth PM with 15+ years building products at Amazon, LendingClub, and Zendesk. Customer obsession first. The growth metrics prove themselves.",
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+  },
   openGraph: {
     title: "Brian My — Growth Product Leader",
     description:
