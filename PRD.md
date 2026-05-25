@@ -1,8 +1,14 @@
 # PRD: Brian My — Personal Brand Website
 
+## Status: Built — Pending Launch
+
+The site is built and pushed to GitHub (`brianmy/personal-website`). Remaining steps before launch: connect repo to Vercel, point `brianmy.com` DNS to Vercel.
+
+---
+
 ## Overview
 
-A personal website for Brian My, a strategic Growth Product Leader with 15+ years of experience, designed to support his search for a senior PM role. The site should function as a living portfolio and professional hub — communicating his unique value, showcasing his work, and giving hiring decision-makers a reason to reach out.
+A personal website for Brian My, a strategic Growth Product Leader with 15+ years of experience, designed to support his search for a senior PM role. The site functions as a living portfolio and professional hub — communicating his unique value, showcasing his work, and giving hiring decision-makers a reason to reach out.
 
 **Reference inspiration:** [benshih.design](https://www.benshih.design/) — clean, minimal, case-study-driven, personality-forward.
 
@@ -38,20 +44,23 @@ A personal website for Brian My, a strategic Growth Product Leader with 15+ year
 
 ## Pages & Content
 
-### 1. Home / Hero
-- **Positioning headline** — one crisp line defining what Brian does and for whom
-  - Example direction: *"Growth PM who turns ambiguous problems into products people actually use"*
-- **Sub-headline** — 1–2 sentences on his background and current focus
-- **CTA** — "See my work" (scrolls to case studies) + "Get in touch"
-- Professional photo
+### 1. Home / Hero ✅
 
-### 2. Work / Case Studies
+**Headline (finalized):**
+> Customer obsession first. Then growth metrics that prove themselves.
 
-Three case studies showing Brian's thinking process and measurable impact. Each follows this structure:
-- **Context** — Company, role, the problem
-- **Approach** — How Brian thought about it, key decisions
-- **Outcome** — Quantified results
-- **What I learned** — Shows self-awareness and growth
+**Sub-headline (finalized):**
+> I've spent 15+ years building growth products at brands like Amazon, LendingClub, and Zendesk. Currently open to product builder roles responsible for hitting business growth objectives.
+
+**CTAs:** "See my work" (scrolls to case studies) + "Get in touch" (scrolls to contact)
+
+**Design:** Full-bleed video background (`hero.mp4` — plants sprouting/growing), dark gradient overlay, white text. Profile photo removed from hero; visual interest carried by video.
+
+---
+
+### 2. Work / Case Studies ✅
+
+Three case studies, each structured as: Context → Problem → Approach → Outcome → Lesson.
 
 ---
 
@@ -74,6 +83,8 @@ Three case studies showing Brian's thinking process and measurable impact. Each 
 - The AI-assisted setup experience also helped reposition Zendesk competitively as customer expectations around AI capabilities rapidly increased
 
 **Lesson:** AI works best when it solves a concrete customer problem rather than being treated as a standalone feature. Successful AI product development requires balancing speed, experimentation, and customer trust — especially when the technology and market expectations are evolving quickly.
+
+> ⚠️ **Pre-publish:** Confirm Zendesk metrics (170% activation, bookings inflection) are safe to publish publicly.
 
 ---
 
@@ -101,36 +112,65 @@ Three case studies showing Brian's thinking process and measurable impact. Each 
 
 ---
 
-#### Case Study 3: Amazon Music Discovery on Amazon.com *(Amazon — placeholder)*
+#### Case Study 3: Growing Amazon Music at Scale *(Amazon — Principal PM)*
 
-> **Status: Placeholder.** Brian to provide a STAR-format summary of this experience. The case study will cover his work on integrating Amazon Music discovery into Amazon's ecommerce experience.
+**Context:** As a Principal PM at Amazon Music, Brian led three growth product teams responsible for global acquisition and retention across 60M+ customers. Amazon Music sat inside one of the world's most powerful distribution ecosystems — and still faced a significant awareness problem.
+
+**Problem:** Two gaps, same root cause. Tens of millions of Prime members didn't know Amazon Music was included in their membership. And existing customers on the free tier weren't upgrading to Amazon Music Unlimited or understanding why it was worth paying for over Spotify or Apple Music. The discovery problem wasn't inside the app — it was before customers ever opened it.
+
+**Approach:**
+- **Meet customers where they already are.** Embedded an Amazon Music player directly into Amazon.com search results (e.g., searching for Billie Eilish merchandise surfaces the player). Brian wrote the six-page PRFAQ, secured alignment across Amazon Music, Retail, and Prime leadership, and proposed it as a two-way door decision. Launched after Brian left Amazon; still live on amazon.com today.
+- **Solve the cold-start problem.** Introduced an Artist Taste Collection in the FTUE — a short quiz capturing favorite artists that immediately personalized the homepage with relevant recommendations in session one.
+- **Remove friction at the upgrade moment.** Inspired by Amazon's 1-Click Buy Now, brought the same pattern to AMU upgrades — requiring close collaboration with security, compliance, and finance.
+- Operated a high-velocity A/B testing framework across iOS, Android, Desktop, and FireTV/Echo Show.
+
+**Outcome:**
+- 104% year-over-year subscription increase
+- Retail discovery experience launched and remains live on amazon.com
+- Shaped acquisition and retention strategies for 60M+ customers globally
+
+**Lesson:** The best growth lever isn't always inside your product. Sometimes the highest-leverage move is finding where your customers already are — and making it frictionless to discover you there.
 
 ---
 
-### 3. About
-More personal than a LinkedIn bio. Should answer:
-- What drives Brian as a PM — his product philosophy
-- What makes him different: customer obsession, business judgment, empathetic leadership
-- A glimpse of the person, not just the professional — interests, what he's thinking about
+### 3. About ✅
 
-### 4. Contact
-- Simple `mailto:` link
-- LinkedIn URL
-- Clear CTA: *"Open to senior PM and Head of Product roles. Let's talk."*
+**Heading:** The PM behind the metrics
+
+**Copy (finalized):**
+
+The metric is never the problem. The problem is always upstream — in how a customer experiences the product, what they were promised, what they actually need. After fifteen years in growth, that's the belief I keep coming back to.
+
+I'm a builder with a bias toward shipping. I'd rather run a focused experiment and learn fast than deliberate until the moment passes. What I've found is that you can move quickly *and* get it right — if you do the customer work first. I hold my teams to quantifying impact in both directions: what did customers feel, and what did it do to the business metrics.
+
+I care about building teams, not just products. The environments I'm most proud of weren't the ones that shipped the most — they were the ones where people were trusted, engaged, and growing alongside the work. I want a seat at the table not because I need the credit, but because product leaders who are in the room make better decisions for customers and for the business.
+
+Outside of work: I run every day, bring the same analytical obsession to fantasy football and baseball that I bring to activation funnels, and spend a lot of time on the sidelines. My two sons are deep into swimming, baseball, and Scouts. I coach when I can. I show up when I can't.
+
+**Design:** Two-column layout — sticky heading + headshot (left), copy (right).
 
 ---
 
-## Design Direction
+### 4. Contact ✅
 
-Inspired by benshih.design, with adjustments for a PM (not designer) audience.
+- Email: brian.my@gmail.com
+- LinkedIn: linkedin.com/in/brianmy
+- CTA: *"Open to senior PM and Head of Product roles. Let's talk."*
 
-- **Tone:** Confident, clear, human — not corporate
-- **Layout:** Clean, generous whitespace, content-first
-- **Typography:** Strong hierarchy — one serif or modern sans for headings, readable body font
-- **Color:** Neutral base (white/off-white) with one strong accent color — let it emerge from the design process
-- **Photography:** Professional photo of Brian on hero
-- **Mobile:** Fully responsive
-- **No clutter:** No unnecessary animations, widgets, or social feeds
+---
+
+## Design
+
+| Element | Decision |
+|---|---|
+| Accent color | Heather Green — `#4a7c59` (labels, arrows) / `#3a6246` (metric numbers, nav name) |
+| Background | White / `#f9fafb` (gray-50 for Work section) |
+| Typography | Geist Sans (Google Fonts) |
+| Hero | Full-bleed video background with dark gradient overlay |
+| Case study cards | White rounded cards (`rounded-2xl`) on gray-50 background |
+| Nav | Fixed, white/blur backdrop, circular headshot + "Brian My" in `text-3xl` Heather Green |
+| Photo | Profile headshot in nav (36px circle) and About section (2/3 column width) |
+| Mobile | Fully responsive |
 
 ---
 
@@ -141,35 +181,38 @@ Inspired by benshih.design, with adjustments for a PM (not designer) audience.
 | Domain | `brianmy.com` |
 | Registrar | Namecheap |
 | Hosting | Vercel (free tier, auto-deploy from GitHub) |
-| Stack | Next.js + Tailwind CSS |
+| Stack | Next.js + Tailwind CSS + TypeScript |
 | Writing/blog | Deferred to v2 |
-| Photo | Brian has a professional photo ready |
-| Timeline | ASAP — target live within 2 weeks |
-| Color/style | Let it emerge from reference sites |
+| Photo | `bmy_profile.jpeg` — in nav and About section |
+| Logo | `bmy_logo.png` — available in public/, not currently used in nav |
+| Hero video | `hero.mp4` (plants sprouting) — full-bleed background |
+| Color | Heather Green (`#4a7c59` / `#3a6246`) as accent |
+| Timeline | ASAP — target live within 2 weeks of build start |
 
 ---
 
-## Technical Requirements
+## Technical
 
-- Fast load times (Core Web Vitals passing)
-- SEO-ready (meta tags, OG images, sitemap)
-- Easy for Brian to update content without a developer
-- Auto-deploys from the `brianmy/personal-website` GitHub repo via Vercel
+- **Repo:** `brianmy/personal-website` (public, GitHub)
+- **Framework:** Next.js 14+ (App Router), TypeScript, Tailwind CSS
+- **Assets in `/public`:** `bmy_profile.jpeg`, `bmy_logo.png`, `hero.mp4`
+- **Deploy:** Not yet connected to Vercel
 
 ---
 
 ## Success Metrics
 
-- [ ] Site is live at `brianmy.com` within 2 weeks of build start
-- [ ] At least 2 complete case studies published at launch
+- [ ] Site is live at `brianmy.com`
+- [ ] At least 2 complete case studies published at launch ✅ (3 complete)
 - [ ] Passes Google PageSpeed Insights (score > 90 mobile)
 - [ ] At least 3 inbound conversations from hiring managers within 60 days of launch
 
 ---
 
-## Remaining Open Items
+## Remaining Before Launch
 
-- [ ] **Case Study 3:** Brian to provide STAR summary for Amazon Music discovery work
-- [ ] **Hero headline:** Finalize positioning statement (draft above is a starting point)
-- [ ] **About copy:** Brian to draft or provide raw thoughts; can be refined with Claude
-- [ ] **Confidentiality check:** Review case study details (especially Zendesk metrics) before publishing
+- [ ] **Confidentiality check:** Confirm Zendesk metrics (170% activation, Q3 bookings inflection) are safe to publish
+- [ ] **Vercel:** Connect `brianmy/personal-website` repo for auto-deploy
+- [ ] **DNS:** Point `brianmy.com` (Namecheap) to Vercel
+- [ ] **SEO:** Add OG image for social sharing previews
+- [ ] **PageSpeed:** Test and tune after Vercel deploy
