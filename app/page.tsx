@@ -17,6 +17,7 @@ export default function Home() {
                 src="/bmy_profile.jpeg"
                 alt="Brian My"
                 fill
+                sizes="36px"
                 className="object-cover object-top"
                 priority
               />
@@ -39,6 +40,7 @@ export default function Home() {
           muted
           loop
           playsInline
+          preload="none"
           className="absolute inset-0 w-full h-full object-cover"
         >
           <source src="/hero.mp4" type="video/mp4" />
@@ -89,9 +91,12 @@ export default function Home() {
             <div className="bg-white rounded-2xl p-10 shadow-sm">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-8 gap-2">
                 <div>
-                  <p className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: green }}>
-                    Zendesk · 2021–2026
-                  </p>
+                  <div className="flex items-center gap-2 mb-2">
+                    <img src="/logo-zendesk.png" alt="Zendesk" className="w-5 h-5 rounded object-contain" />
+                    <p className="text-xs font-semibold uppercase tracking-widest" style={{ color: green }}>
+                      Zendesk · 2021–2026
+                    </p>
+                  </div>
                   <h3 className="text-2xl font-bold">Reinvigorating Growth at Zendesk</h3>
                 </div>
                 <span className="text-sm text-gray-400 shrink-0">Growth PM, Digital Segment</span>
@@ -185,9 +190,12 @@ export default function Home() {
             <div className="bg-white rounded-2xl p-10 shadow-sm">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-8 gap-2">
                 <div>
-                  <p className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: green }}>
-                    Amazon · 2018–2021
-                  </p>
+                  <div className="flex items-center gap-2 mb-2">
+                    <img src="/logo-amazon.png" alt="Amazon" className="w-5 h-5 rounded object-contain" />
+                    <p className="text-xs font-semibold uppercase tracking-widest" style={{ color: green }}>
+                      Amazon · 2018–2021
+                    </p>
+                  </div>
                   <h3 className="text-2xl font-bold">Growing Amazon Music at Scale</h3>
                 </div>
                 <span className="text-sm text-gray-400 shrink-0">Principal PM</span>
@@ -283,9 +291,12 @@ export default function Home() {
             <div className="bg-white rounded-2xl p-10 shadow-sm">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-8 gap-2">
                 <div>
-                  <p className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: green }}>
-                    LendingClub · 2015–2018
-                  </p>
+                  <div className="flex items-center gap-2 mb-2">
+                    <img src="/logo-lendingclub.png" alt="LendingClub" className="w-5 h-5 rounded object-contain" />
+                    <p className="text-xs font-semibold uppercase tracking-widest" style={{ color: green }}>
+                      LendingClub · 2015–2018
+                    </p>
+                  </div>
                   <h3 className="text-2xl font-bold">0→1 Launch of Balance Transfer Personal Loans</h3>
                 </div>
                 <span className="text-sm text-gray-400 shrink-0">Growth PM</span>
@@ -393,6 +404,7 @@ export default function Home() {
                   src="/bmy_profile.jpeg"
                   alt="Brian My"
                   fill
+                  sizes="(max-width: 768px) 67vw, 22vw"
                   className="object-cover object-top"
                 />
               </div>
