@@ -53,12 +53,12 @@ export default function Home() {
             Growth Product Leader
           </p>
           <h1 className="text-5xl md:text-6xl font-bold tracking-tight leading-[1.1] mb-6 text-white max-w-2xl">
-            Customer obsession first. Then growth metrics that prove themselves.
+            Driven by customer obsession. Proven by growth metrics.
           </h1>
           <p className="text-lg text-white leading-relaxed mb-10 max-w-xl">
             I&apos;ve spent 15+ years building growth products at brands like Amazon,
-            LendingClub, and Zendesk. Currently open to product builder roles responsible
-            for hitting business growth objectives.
+            LendingClub, and Zendesk. Currently open to product leadership roles that are
+            accountable for delivering business growth.
           </p>
           <div className="flex flex-wrap gap-4">
             <a
@@ -90,7 +90,7 @@ export default function Home() {
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-8 gap-2">
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: green }}>
-                    Zendesk · 2024–2025
+                    Zendesk · 2021–2026
                   </p>
                   <h3 className="text-2xl font-bold">Reinvigorating Growth at Zendesk</h3>
                 </div>
@@ -181,108 +181,12 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Case Study 2: LendingClub */}
+            {/* Case Study 2: Amazon Music */}
             <div className="bg-white rounded-2xl p-10 shadow-sm">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-8 gap-2">
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: green }}>
-                    LendingClub
-                  </p>
-                  <h3 className="text-2xl font-bold">0→1 Launch of Balance Transfer Personal Loans</h3>
-                </div>
-                <span className="text-sm text-gray-400 shrink-0">Growth PM</span>
-              </div>
-
-              <div className="space-y-8 text-gray-600 leading-relaxed">
-                <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Context</h4>
-                  <p>
-                    A large percentage of LendingClub borrowers said they wanted loans to pay off credit card
-                    debt — but after receiving funds, many weren&apos;t actually paying down their balances.
-                    The credit and risk teams proposed a balance transfer product where LendingClub would pay
-                    creditors directly instead of depositing cash.
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Problem</h4>
-                  <p>
-                    Two teams with fundamentally different incentives had to build one product together. Risk
-                    wanted maximum verification and friction to ensure debt paydown and minimize default risk.
-                    Design and Growth wanted a simple, intuitive experience that didn&apos;t kill funnel
-                    conversion. My job was to find the path through.
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Approach</h4>
-                  <ul className="space-y-3">
-                    <li className="flex gap-3">
-                      <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
-                      <span>
-                        Brought both sides together around a shared customer outcome — improving borrowers&apos;
-                        financial health — rather than debating features
-                      </span>
-                    </li>
-                    <li className="flex gap-3">
-                      <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
-                      <span>
-                        Proposed an iterative rollout: MVP had users manually enter creditor info; risk teams
-                        maintained stronger validation controls; design teams accepted initial friction in
-                        exchange for fast learning
-                      </span>
-                    </li>
-                    <li className="flex gap-3">
-                      <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
-                      <span>
-                        Instrumented the funnel heavily across awareness, offer selection, creditor entry,
-                        funding conversion, and repayment behavior
-                      </span>
-                    </li>
-                    <li className="flex gap-3">
-                      <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
-                      <span>
-                        Drove subsequent iterations: pre-populating creditor info, simplifying the balance
-                        transfer flow, improving offer display relative to traditional cash loans, reducing
-                        cognitive overload during loan selection
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Outcome</h4>
-                  <div className="flex flex-col sm:flex-row gap-6 items-start">
-                    <div className="rounded-xl px-8 py-5 text-center shrink-0" style={{ backgroundColor: greenLight }}>
-                      <p className="text-4xl font-bold" style={{ color: greenDark }}>~$900</p>
-                      <p className="text-sm mt-1" style={{ color: green }}>saved per borrower</p>
-                    </div>
-                    <p className="flex-1 mt-2">
-                      Significant reduction in interest rates, with many borrowers improving their credit scores
-                      within months. Gave LendingClub much greater confidence that loan proceeds were being used
-                      to pay down debt. The product became foundational to LendingClub&apos;s personal loans
-                      experience and was rolled out across the platform.
-                    </p>
-                  </div>
-                </div>
-
-                <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Lesson</h4>
-                  <p className="italic text-gray-500">
-                    Successful product leadership often isn&apos;t about choosing between customer experience
-                    and risk management — it&apos;s about creating alignment around shared outcomes, then using
-                    iterative experimentation to build trust across teams.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Case Study 3: Amazon Music */}
-            <div className="bg-white rounded-2xl p-10 shadow-sm">
-              <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-8 gap-2">
-                <div>
-                  <p className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: green }}>
-                    Amazon
+                    Amazon · 2018–2021
                   </p>
                   <h3 className="text-2xl font-bold">Growing Amazon Music at Scale</h3>
                 </div>
@@ -375,6 +279,102 @@ export default function Home() {
               </div>
             </div>
 
+            {/* Case Study 3: LendingClub */}
+            <div className="bg-white rounded-2xl p-10 shadow-sm">
+              <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-8 gap-2">
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: green }}>
+                    LendingClub · 2015–2018
+                  </p>
+                  <h3 className="text-2xl font-bold">0→1 Launch of Balance Transfer Personal Loans</h3>
+                </div>
+                <span className="text-sm text-gray-400 shrink-0">Growth PM</span>
+              </div>
+
+              <div className="space-y-8 text-gray-600 leading-relaxed">
+                <div>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Context</h4>
+                  <p>
+                    A large percentage of LendingClub borrowers said they wanted loans to pay off credit card
+                    debt — but after receiving funds, many weren&apos;t actually paying down their balances.
+                    The credit and risk teams proposed a balance transfer product where LendingClub would pay
+                    creditors directly instead of depositing cash.
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Problem</h4>
+                  <p>
+                    Two teams with fundamentally different incentives had to build one product together. Risk
+                    wanted maximum verification and friction to ensure debt paydown and minimize default risk.
+                    Design and Growth wanted a simple, intuitive experience that didn&apos;t kill funnel
+                    conversion. My job was to find the path through.
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Approach</h4>
+                  <ul className="space-y-3">
+                    <li className="flex gap-3">
+                      <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
+                      <span>
+                        Brought both sides together around a shared customer outcome — improving borrowers&apos;
+                        financial health — rather than debating features
+                      </span>
+                    </li>
+                    <li className="flex gap-3">
+                      <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
+                      <span>
+                        Proposed an iterative rollout: MVP had users manually enter creditor info; risk teams
+                        maintained stronger validation controls; design teams accepted initial friction in
+                        exchange for fast learning
+                      </span>
+                    </li>
+                    <li className="flex gap-3">
+                      <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
+                      <span>
+                        Instrumented the funnel heavily across awareness, offer selection, creditor entry,
+                        funding conversion, and repayment behavior
+                      </span>
+                    </li>
+                    <li className="flex gap-3">
+                      <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
+                      <span>
+                        Drove subsequent iterations: pre-populating creditor info, simplifying the balance
+                        transfer flow, improving offer display relative to traditional cash loans, reducing
+                        cognitive overload during loan selection
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Outcome</h4>
+                  <div className="flex flex-col sm:flex-row gap-6 items-start">
+                    <div className="rounded-xl px-8 py-5 text-center shrink-0" style={{ backgroundColor: greenLight }}>
+                      <p className="text-4xl font-bold" style={{ color: greenDark }}>~$900</p>
+                      <p className="text-sm mt-1" style={{ color: green }}>saved per borrower</p>
+                    </div>
+                    <p className="flex-1 mt-2">
+                      Significant reduction in interest rates, with many borrowers improving their credit scores
+                      within months. Gave LendingClub much greater confidence that loan proceeds were being used
+                      to pay down debt. The product became foundational to LendingClub&apos;s personal loans
+                      experience and was rolled out across the platform.
+                    </p>
+                  </div>
+                </div>
+
+                <div>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Lesson</h4>
+                  <p className="italic text-gray-500">
+                    Successful product leadership often isn&apos;t about choosing between customer experience
+                    and risk management — it&apos;s about creating alignment around shared outcomes, then using
+                    iterative experimentation to build trust across teams.
+                  </p>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -434,7 +434,7 @@ export default function Home() {
           <p className="text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: green }}>Contact</p>
           <h2 className="text-4xl font-bold tracking-tight mb-4">Let&apos;s talk.</h2>
           <p className="text-lg text-gray-400 mb-10">
-            Open to senior PM and Head of Product roles.
+            Open to product leadership roles that are accountable for delivering business growth.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
