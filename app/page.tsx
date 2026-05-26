@@ -59,8 +59,8 @@ export default function Home() {
           </h1>
           <p className="text-lg text-white leading-relaxed mb-10 max-w-xl">
             I&apos;ve spent 15+ years building growth products at brands like Amazon,
-            LendingClub, and Zendesk. Currently open to product leadership roles that are
-            accountable for delivering business growth.
+            LendingClub, and Zendesk. Currently open to <strong>product leadership</strong> roles that are
+            accountable for <strong>delivering business growth</strong>.
           </p>
           <div className="flex flex-wrap gap-4">
             <a
