@@ -10,8 +10,6 @@ The site is built and pushed to GitHub (`brianmy/personal-website`). Remaining s
 
 A personal website for Brian My, a strategic Growth Product Leader with 15+ years of experience, designed to support his search for a senior PM role. The site functions as a living portfolio and professional hub — communicating his unique value, showcasing his work, and giving hiring decision-makers a reason to reach out.
 
-**Reference inspiration:** [benshih.design](https://www.benshih.design/) — clean, minimal, case-study-driven, personality-forward.
-
 ---
 
 ## Goals
@@ -29,7 +27,7 @@ A personal website for Brian My, a strategic Growth Product Leader with 15+ year
 |---|---|
 | Hiring managers / VPs of Product | Proof of impact, strategic thinking, leadership signal |
 | Founders / Execs at growth-stage companies | Cultural fit, growth track record, judgment |
-| Recruiters | Quick orientation, contact info, LinkedIn link |
+| Recruiters | Quick orientation, contact info, LinkedIn link, resume |
 | Former colleagues / referral network | Something to forward that makes a strong case |
 
 ---
@@ -44,175 +42,181 @@ A personal website for Brian My, a strategic Growth Product Leader with 15+ year
 
 ## Pages & Content
 
-### 1. Home / Hero ✅
+### 1. Nav (fixed, white/blur) ✅
 
-**Headline (finalized):**
-> Customer obsession first. Then growth metrics that prove themselves.
-
-**Sub-headline (finalized):**
-> I've spent 15+ years building growth products at brands like Amazon, LendingClub, and Zendesk. Currently open to product builder roles responsible for hitting business growth objectives.
-
-**CTAs:** "See my work" (scrolls to case studies) + "Get in touch" (scrolls to contact)
-
-**Design:** Full-bleed video background (`hero.mp4` — plants sprouting/growing), dark gradient overlay, white text. Profile photo removed from hero; visual interest carried by video.
+- Left: 36px circular headshot + "Brian My" in `text-3xl` Heather Green (`#3a6246`)
+- Right: Work / About / Contact / Resume anchor links
+- **Resume** opens Google Drive PDF in new tab
 
 ---
 
-### 2. Work / Case Studies ✅
+### 2. Hero ✅
 
-Three case studies, each structured as: Context → Problem → Approach → Outcome → Lesson.
+**Headline:** Driven by customer obsession. Proven by growth metrics.
+
+**Sub-headline:** I've spent 15+ years building growth products at brands like Amazon, LendingClub, and Zendesk. Currently open to **product leadership** roles that are accountable for **delivering business growth**.
+
+**CTAs:** "See my work" (white pill) + "Get in touch" (border pill)
+
+**Design:** Full-bleed video background (`hero.mp4` — plants sprouting/growing), dark blue-tinted gradient overlay, white text.
 
 ---
 
-#### Case Study 1: Reinvigorating Growth at Zendesk *(Zendesk, 2024–2025)*
+### 3. Work / Case Studies ✅
 
-**Context:** In early 2025, Zendesk reorganized around a new Digital Segment — SMBs with small or growing customer support teams. The segment had seen multiple consecutive quarters of bookings contraction. Brian was brought in under a new GM to lead new business bookings with a specific focus on the self-service trial experience, and later expanded scope to own onboarding and adoption for paying customers.
+Three case study cards, each structured as: Context → Problem → Approach (with product screenshot) → Outcome (metric callout) → Lesson.
 
-**Problem:** Trial signups were healthy, but activation and conversion were declining. New customers entered a blank, configuration-heavy product and dropped off before reaching Zendesk's core "aha moment" — resolving a customer inquiry. The onboarding experience relied on guided tours of features, not on getting users to feel immediate value.
+Each card header includes: company favicon + company name + date range + tag pills.
+
+---
+
+#### Case Study 1: Reinvigorating Growth at Zendesk *(2021–2026)*
+
+**Tag pills:** Generative AI · PLG · B2B SaaS
+
+**Context:** Zendesk reorganized around a new customer segmentation strategy in 2025. A new Digital segment, companies with fewer than 50 employees, was defined. These primarily self-service customers made up a segment representing tens of millions in annual bookings, but the segment had been contracting over multiple consecutive quarters. As the product leader responsible for the Product Led Growth strategy, I set out to reverse the decline.
+
+**Problem:** Trial signups were healthy, but activation and conversion were declining. New customers entered a blank, configuration-heavy product and dropped off before reaching Zendesk's core "aha moment", resolving a customer inquiry using the platform. The existing trial and onboarding experience relied on guided tours of features, not on getting users to feel immediate value.
+
+**Approach:** Reframed the problem around customer outcomes: trialists didn't want AI for its own sake. Instead, they wanted to know "How would Zendesk work for my business?" That insight led me to make a bet on generative AI to transform the trial experience into one guiding users to resolve their first ticket with real data, without touching any configuration.
+
+→ Built an AI-assisted onboarding experience that inferred company context from signup data, pre-configured help center content and workflows, and auto-generated sample tickets and support scenarios
+→ Ran focused experiments using OpenAI's Web Search API to expedite user setup and accelerate time-to-first-resolved-inquiry
+→ Partnered with GTM teams to surface product signals (stalled onboarding, strong buying intent) for proactive outreach; iterated across two experiment cycles over two months
+
+**Product screenshot:** Auto-advancing carousel of 6 screenshots (`zendesk-1.png` through `zendesk-6.png`), 4-second interval, green dot indicators.
+
+**Outcome:** 170% increase in trial activation. Combined with other growth initiatives, delivered a bookings inflection in Q3 2025, returning to quarter-over-quarter growth after multiple consecutive quarters of contraction.
+
+**Lesson:** AI alone doesn't move metrics — solving a concrete customer problem does. The real work was understanding why trialists were failing, then using AI as the lever to eliminate that friction.
+
+---
+
+#### Case Study 2: Growing Amazon Music at Scale *(2018–2021)*
+
+**Tag pills:** Awareness & Activation · Monetization · Consumer
+
+**Context:** As a Principal PM at Amazon Music, I led three growth product teams responsible for global acquisition and retention across 60M+ customers. Amazon Music sat inside one of the world's most powerful distribution ecosystems — and still faced a significant awareness problem.
+
+**Problem:** Two gaps, same root cause. Tens of millions of Prime members didn't know Amazon Music was included in their membership. And existing customers weren't upgrading to Amazon Music Unlimited or understanding why it was worth paying for over Spotify or Apple Music. The discovery problem wasn't inside the app — it was before customers ever opened it.
 
 **Approach:**
-- Reframed the problem around customer outcomes: users didn't want AI for its own sake — they wanted to know *"How would Zendesk work for my business?"*
-- Led the team to build an AI-assisted onboarding experience that inferred company context from signup data, used generative AI to pre-configure help center content and workflows, and auto-generated sample tickets and support scenarios
-- Ran focused experiments using OpenAI's Web Search API to expedite user setup and get users to their first resolved inquiry faster
-- Partnered with GTM teams to surface product signals (stalled onboarding, strong buying intent) for proactive outreach
-- Iterated quickly: two experiment cycles over two months, layering in more AI-generated personalization over time
+→ Meet customers where they already are. Embedded an Amazon Music player directly into the amazon.com commerce experience. Wrote the six-page PRFAQ, secured alignment across Amazon Music, Retail, and Prime leadership.
+→ Solve the cold-start problem. Introduced an Artist Taste Collection in the FTUE — a short quiz capturing favorite artists that immediately personalized the Home experience.
+→ Remove friction at the upgrade moment. Brought Amazon's 1-Click Buy Now pattern to AMU upgrades.
 
-**Outcome:**
-- 170% increase in the number of trialists who resolved a customer inquiry — the key activation milestone
-- Combined with other Digital Segment initiatives, the team delivered a bookings inflection in Q3 — returning to quarter-over-quarter growth after multiple consecutive quarters of contraction
-- The AI-assisted setup experience also helped reposition Zendesk competitively as customer expectations around AI capabilities rapidly increased
+**Product screenshot:** `amazon.png` (single image, 1200×952)
 
-**Lesson:** AI works best when it solves a concrete customer problem rather than being treated as a standalone feature. Successful AI product development requires balancing speed, experimentation, and customer trust — especially when the technology and market expectations are evolving quickly.
-
-> ⚠️ **Pre-publish:** Confirm Zendesk metrics (170% activation, bookings inflection) are safe to publish publicly.
-
----
-
-#### Case Study 2: 0→1 Launch of Balance Transfer Personal Loans *(LendingClub)*
-
-**Context:** A large percentage of LendingClub borrowers said they wanted loans to pay off credit card debt — but after receiving funds, many weren't actually paying down their balances. This left customers in debt longer than expected, and created risk and repayment concerns for the business. The credit and risk teams proposed a balance transfer product where LendingClub would pay creditors directly instead of depositing cash.
-
-**Problem:** Two teams with fundamentally different incentives had to build one product together. Risk wanted maximum verification and friction to ensure debt paydown and minimize default risk. Design and Growth wanted a simple, intuitive experience that didn't kill funnel conversion. Brian's job was to find the path through.
-
-**Approach:**
-- Brought both sides together around a shared customer outcome — improving borrowers' financial health — rather than debating features
-- Proposed an iterative rollout instead of trying to solve everything perfectly upfront
-- MVP: users manually entered creditor information; risk teams had stronger validation and direct-pay controls; design teams accepted initial friction in exchange for fast learning
-- Instrumented the funnel heavily across awareness, offer selection, creditor entry, funding conversion, and repayment behavior
-- Drove subsequent iterations: pre-populating creditor info, simplifying the balance transfer flow, improving offer display relative to traditional cash loans, reducing cognitive overload during loan selection
-- Ran A/B tests across borrower segments, starting with debt consolidation customers before expanding broadly
-
-**Outcome:**
-- Borrowers using balance transfer loans saved an average of nearly $900 over the life of the loan
-- Significant reduction in interest rates, with many borrowers improving their credit scores within months
-- Gave LendingClub much greater confidence that loan proceeds were actually being used to pay down debt — directly supporting the company's financial wellness mission
-- Product became a foundational part of LendingClub's personal loans experience and was rolled out across the platform
-
-**Lesson:** Successful product leadership often isn't about choosing between customer experience and risk management — it's about creating alignment around shared outcomes, then using iterative experimentation to build trust across teams.
-
----
-
-#### Case Study 3: Growing Amazon Music at Scale *(Amazon — Principal PM)*
-
-**Context:** As a Principal PM at Amazon Music, Brian led three growth product teams responsible for global acquisition and retention across 60M+ customers. Amazon Music sat inside one of the world's most powerful distribution ecosystems — and still faced a significant awareness problem.
-
-**Problem:** Two gaps, same root cause. Tens of millions of Prime members didn't know Amazon Music was included in their membership. And existing customers on the free tier weren't upgrading to Amazon Music Unlimited or understanding why it was worth paying for over Spotify or Apple Music. The discovery problem wasn't inside the app — it was before customers ever opened it.
-
-**Approach:**
-- **Meet customers where they already are.** Embedded an Amazon Music player directly into Amazon.com search results (e.g., searching for Billie Eilish merchandise surfaces the player). Brian wrote the six-page PRFAQ, secured alignment across Amazon Music, Retail, and Prime leadership, and proposed it as a two-way door decision. Launched after Brian left Amazon; still live on amazon.com today.
-- **Solve the cold-start problem.** Introduced an Artist Taste Collection in the FTUE — a short quiz capturing favorite artists that immediately personalized the homepage with relevant recommendations in session one.
-- **Remove friction at the upgrade moment.** Inspired by Amazon's 1-Click Buy Now, brought the same pattern to AMU upgrades — requiring close collaboration with security, compliance, and finance.
-- Operated a high-velocity A/B testing framework across iOS, Android, Desktop, and FireTV/Echo Show.
-
-**Outcome:**
-- 104% year-over-year subscription increase
-- Retail discovery experience launched and remains live on amazon.com
-- Shaped acquisition and retention strategies for 60M+ customers globally
+**Outcome:** 104% YoY subscription increase. Retail discovery experience remains live on amazon.com.
 
 **Lesson:** The best growth lever isn't always inside your product. Sometimes the highest-leverage move is finding where your customers already are — and making it frictionless to discover you there.
 
 ---
 
-### 3. About ✅
+#### Case Study 3: 0→1 Launch of Balance Transfer Personal Loans *(2015–2018)*
+
+**Tag pills:** 0 → 1 · Fintech
+
+**Context:** A large percentage of LendingClub borrowers said they wanted loans to pay off credit card debt — but after receiving funds, many weren't actually paying down their balances. The credit and risk teams proposed a balance transfer product where LendingClub would pay creditors directly.
+
+**Problem:** Two teams with fundamentally different incentives — Risk vs. Design/Growth — had to build one product together.
+
+**Approach:** Brought both sides together around a shared customer outcome. Proposed an iterative rollout. Instrumented the funnel heavily. Drove subsequent iterations.
+
+**Product screenshot:** `lendingclub.png` (single image, 600×709, displayed at `md:w-60`)
+
+**Outcome:** ~$900 saved per borrower. Product became foundational to LendingClub's personal loans experience.
+
+**Lesson:** Alignment around shared outcomes, then iterative experimentation to build trust.
+
+---
+
+### 4. About ✅
 
 **Heading:** The PM behind the metrics
+
+**Design:** Two-column sticky layout — heading + headshot left (2/3 width), copy right.
 
 **Copy (finalized):**
 
 The metric is never the problem. The problem is always upstream — in how a customer experiences the product, what they were promised, what they actually need. After fifteen years in growth, that's the belief I keep coming back to.
 
-I'm a builder with a bias toward shipping. I'd rather run a focused experiment and learn fast than deliberate until the moment passes. What I've found is that you can move quickly *and* get it right — if you do the customer work first. I hold my teams to quantifying impact in both directions: what did customers feel, and what did it do to the business metrics.
+I'm a builder with a bias toward shipping. I'd rather run a focused experiment and learn fast than deliberate until the moment passes. What I've found is that you can move quickly and get it right, if you do the customer work first. I hold my teams accountable to quantifying impact in both directions: what did customers feel, and what did it do to the business metrics.
 
 I care about building teams, not just products. The environments I'm most proud of weren't the ones that shipped the most — they were the ones where people were trusted, engaged, and growing alongside the work. I want a seat at the table not because I need the credit, but because product leaders who are in the room make better decisions for customers and for the business.
 
-Outside of work: I run every day, bring the same analytical obsession to fantasy football and baseball that I bring to activation funnels, and spend a lot of time on the sidelines. My two sons are deep into swimming, baseball, and Scouts. I coach when I can. I show up when I can't.
-
-**Design:** Two-column layout — sticky heading + headshot (left), copy (right).
+Outside of work: I enjoy my daily jog around Moraga, bring the same analytical obsession to fantasy football and baseball that I bring to activation funnels, and spend a lot of time on the sidelines. My two sons are deep into swimming, baseball, and Scouts. I coach when I can. I show up when I can't.
 
 ---
 
-### 4. Contact ✅
+### 5. Contact ✅
 
+**Heading:** Let's talk.
+**Subhead:** Open to product leadership roles that are accountable for delivering business growth.
+
+**CTAs (3 pills):**
 - Email: brian.my@gmail.com
 - LinkedIn: linkedin.com/in/brianmy
-- CTA: *"Open to senior PM and Head of Product roles. Let's talk."*
+- Resume (Google Drive PDF, opens in new tab)
 
 ---
 
-## Design
+### 6. Footer ✅
 
-| Element | Decision |
-|---|---|
-| Accent color | Heather Green — `#4a7c59` (labels, arrows) / `#3a6246` (metric numbers, nav name) |
-| Background | White / `#f9fafb` (gray-50 for Work section) |
-| Typography | Geist Sans (Google Fonts) |
-| Hero | Full-bleed video background with dark gradient overlay |
-| Case study cards | White rounded cards (`rounded-2xl`) on gray-50 background |
-| Nav | Fixed, white/blur backdrop, circular headshot + "Brian My" in `text-3xl` Heather Green |
-| Photo | Profile headshot in nav (36px circle) and About section (2/3 column width) |
-| Mobile | Fully responsive |
+"Brian My" + dynamic copyright year.
 
 ---
 
-## Decisions Made
+## Design System
 
-| Question | Decision |
-|---|---|
-| Domain | `brianmy.com` |
-| Registrar | Namecheap |
-| Hosting | Vercel (free tier, auto-deploy from GitHub) |
-| Stack | Next.js + Tailwind CSS + TypeScript |
-| Writing/blog | Deferred to v2 |
-| Photo | `bmy_profile.jpeg` — in nav and About section |
-| Logo | `bmy_logo.png` — available in public/, not currently used in nav |
-| Hero video | `hero.mp4` (plants sprouting) — full-bleed background |
-| Color | Heather Green (`#4a7c59` / `#3a6246`) as accent |
-| Timeline | ASAP — target live within 2 weeks of build start |
+| Token | Value | Usage |
+|---|---|---|
+| `green` | `#4a7c59` | Section labels, arrow bullets, pill text, dot indicators |
+| `greenLight` | `#eef4f0` | Pill backgrounds, metric callout box backgrounds |
+| `greenDark` | `#3a6246` | Metric numbers, nav "Brian My" text |
+| Background | `#ffffff` / `gray-50` | White for hero/about/contact, gray-50 for Work section |
+| Body text | `gray-600` | Case study body copy |
+| Headings | `gray-900` | Section and card headings |
 
 ---
 
 ## Technical
 
-- **Repo:** `brianmy/personal-website` (public, GitHub)
-- **Framework:** Next.js 14+ (App Router), TypeScript, Tailwind CSS
-- **Assets in `/public`:** `bmy_profile.jpeg`, `bmy_logo.png`, `hero.mp4`
-- **Deploy:** Not yet connected to Vercel
+| Item | Decision |
+|---|---|
+| Framework | Next.js 16.2.6 (App Router, TypeScript, Turbopack) |
+| Styling | Tailwind CSS + inline style props for custom colors |
+| Font | Geist Sans (Google Fonts) |
+| Repo | `brianmy/personal-website` (public, GitHub) |
+| Hosting | Vercel (free tier) — not yet connected |
+| Domain | `brianmy.com` (Namecheap) — not yet pointed to Vercel |
+| Security | CSP, HSTS, X-Frame-Options, Referrer-Policy, Permissions-Policy in `next.config.ts` |
 
 ---
 
-## Success Metrics
+## Key Decisions
 
-- [ ] Site is live at `brianmy.com`
-- [ ] At least 2 complete case studies published at launch ✅ (3 complete)
-- [ ] Passes Google PageSpeed Insights (score > 90 mobile)
-- [ ] At least 3 inbound conversations from hiring managers within 60 days of launch
+| Question | Decision |
+|---|---|
+| Single-page vs multi-page | Single-page scrolling (no routing) |
+| Accent color | Heather Green `#4a7c59` / `#3a6246` |
+| Hero | Full-bleed video with blue-tinted dark overlay |
+| Case study order | Zendesk → Amazon → LendingClub (most recent first) |
+| Case study screenshots | Right-aligned in Approach section; carousel for Zendesk (6 slides), single image for Amazon and LendingClub |
+| Tag pills | Per-card, greenLight background / green text, rounded-full |
+| Resume | Google Drive PDF link — in nav and Contact section |
+| Blog/writing | Deferred to v2 |
+| Company logos | Favicons shown next to company names in Work section only |
+| Nav name | Text "Brian My" preferred over logo image |
 
 ---
 
 ## Remaining Before Launch
 
-- [ ] **Confidentiality check:** Confirm Zendesk metrics (170% activation, Q3 bookings inflection) are safe to publish
-- [ ] **Vercel:** Connect `brianmy/personal-website` repo for auto-deploy
-- [ ] **DNS:** Point `brianmy.com` (Namecheap) to Vercel
-- [ ] **SEO:** Add OG image for social sharing previews
-- [ ] **PageSpeed:** Test and tune after Vercel deploy
+- [ ] **Confidentiality check** — Confirm Zendesk 170% metric and Q3 bookings inflection are safe to publish
+- [ ] **Vercel** — Connect `brianmy/personal-website` repo for auto-deploy
+- [ ] **DNS** — Point `brianmy.com` (Namecheap) to Vercel
+- [ ] **Custom email** — Set up hello@brianmy.com (Cloudflare Email Routing or Google Workspace)
+- [ ] **OG image** — Add social sharing preview image for link unfurls
+- [ ] **PageSpeed** — Test and tune after Vercel deploy (target: 90+ mobile)
+- [ ] **Amazon/LendingClub copy** — Context and Problem sections not yet updated with Brian's final copy
