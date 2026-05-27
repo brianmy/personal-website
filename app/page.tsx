@@ -29,6 +29,7 @@ export default function Home() {
             <a href="#work" className="hover:text-gray-900 transition-colors">Work</a>
             <a href="#about" className="hover:text-gray-900 transition-colors">About</a>
             <a href="#contact" className="hover:text-gray-900 transition-colors">Contact</a>
+            <a href="https://drive.google.com/file/d/1ibWCc1wFp1WxJ_JoWiYaXlBhkzEGHmZr/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 transition-colors">Resume</a>
           </div>
         </nav>
       </header>
@@ -512,6 +513,14 @@ export default function Home() {
               className="inline-flex items-center justify-center px-8 py-4 border border-white/20 text-white text-sm font-medium rounded-full hover:border-white/50 transition-colors"
             >
               LinkedIn →
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1ibWCc1wFp1WxJ_JoWiYaXlBhkzEGHmZr/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-8 py-4 border border-white/20 text-white text-sm font-medium rounded-full hover:border-white/50 transition-colors"
+            >
+              Resume →
             </a>
           </div>
         </div>
