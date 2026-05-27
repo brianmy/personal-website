@@ -271,8 +271,16 @@ export default function Home() {
                         </li>
                       </ul>
                     </div>
-                    <div className="mt-4 md:mt-0 w-full md:w-80 h-44 rounded-xl bg-gray-100 border border-gray-200 flex items-center justify-center text-gray-400 text-sm shrink-0">
-                      Product screenshot
+                    <div className="mt-4 md:mt-0 w-full md:w-80 shrink-0">
+                      <div className="relative w-full rounded-xl overflow-hidden border border-gray-200" style={{ aspectRatio: "1200 / 952" }}>
+                        <Image
+                          src="/amazon.png"
+                          alt="Amazon Music discovery experience on amazon.com"
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 768px) 100vw, 640px"
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -376,8 +384,16 @@ export default function Home() {
                         </li>
                       </ul>
                     </div>
-                    <div className="mt-4 md:mt-0 w-full md:w-80 h-44 rounded-xl bg-gray-100 border border-gray-200 flex items-center justify-center text-gray-400 text-sm shrink-0">
-                      Product screenshot
+                    <div className="mt-4 md:mt-0 w-full md:w-60 shrink-0">
+                      <div className="relative w-full rounded-xl overflow-hidden border border-gray-200" style={{ aspectRatio: "600 / 709" }}>
+                        <Image
+                          src="/lendingclub.png"
+                          alt="LendingClub balance transfer product"
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 768px) 100vw, 320px"
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
