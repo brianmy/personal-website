@@ -52,13 +52,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={geist.variable}>
-      <head>
+      <body className="antialiased font-[var(--font-geist-sans)]">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-      </head>
-      <body className="antialiased font-[var(--font-geist-sans)]">{children}</body>
+        {children}
+      </body>
     </html>
   );
 }
