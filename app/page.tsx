@@ -50,7 +50,7 @@ export default function Home() {
 
         {/* Content */}
         <div className="relative z-10 max-w-5xl mx-auto px-6 w-full pt-16 pb-16 md:pt-24 md:pb-32">
-          <p className="text-xs font-semibold uppercase tracking-widest mb-4 md:mb-6 text-white/60">
+          <p className="text-xs font-semibold uppercase tracking-widest mb-4 md:mb-6 text-white/80">
             Growth Product Leader
           </p>
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight leading-[1.1] mb-4 md:mb-6 text-white max-w-2xl">
@@ -107,7 +107,7 @@ export default function Home() {
 
               <div className="space-y-8 text-gray-600 leading-relaxed">
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Context</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-600 mb-3">Context</h4>
                   <p>
                     Zendesk reorganized around a new customer segmentation strategy in 2025. A new Digital
                     segment, companies with fewer than 50 employees, was defined. These primarily self-service
@@ -118,7 +118,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Problem</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-600 mb-3">Problem</h4>
                   <p>
                     Trial signups were healthy, but activation and conversion were declining. New customers
                     entered a blank, configuration-heavy product and dropped off before reaching Zendesk&apos;s
@@ -129,7 +129,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Approach</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-600 mb-3">Approach</h4>
                   <div className="flex flex-col md:flex-row md:gap-6 md:items-start">
                     <div className="md:flex-1">
                       <p className="mb-4">
@@ -169,7 +169,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Outcome</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-600 mb-3">Outcome</h4>
                   <div className="flex flex-col sm:flex-row gap-6 items-start">
                     <div className="rounded-xl px-8 py-5 text-center shrink-0" style={{ backgroundColor: greenLight }}>
                       <p className="text-4xl font-bold" style={{ color: greenDark }}>170%</p>
@@ -187,7 +187,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Lesson</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-600 mb-3">Lesson</h4>
                   <p className="italic text-gray-500">
                     AI alone doesn&apos;t move metrics — solving a concrete customer problem does. The real
                     work was understanding why trialists were failing, then using AI as the lever to eliminate
@@ -219,7 +219,7 @@ export default function Home() {
 
               <div className="space-y-8 text-gray-600 leading-relaxed">
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Context</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-600 mb-3">Context</h4>
                   <p>
                     As a Principal PM at Amazon Music, I led three growth product teams responsible for global
                     acquisition and retention across 60M+ customers. Amazon Music sat inside one of the
@@ -229,7 +229,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Problem</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-600 mb-3">Problem</h4>
                   <p>
                     Two gaps, same root cause. Tens of millions of Prime members didn&apos;t know Amazon Music
                     was included in their membership. And existing customers weren&apos;t upgrading to Amazon
@@ -239,7 +239,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Approach</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-600 mb-3">Approach</h4>
                   <div className="flex flex-col md:flex-row md:gap-6 md:items-start">
                     <div className="md:flex-1">
                       <ul className="space-y-4">
@@ -293,7 +293,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Outcome</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-600 mb-3">Outcome</h4>
                   <div className="flex flex-col sm:flex-row gap-6 items-start">
                     <div className="rounded-xl px-8 py-5 text-center shrink-0" style={{ backgroundColor: greenLight }}>
                       <p className="text-4xl font-bold" style={{ color: greenDark }}>104%</p>
@@ -308,7 +308,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Lesson</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-600 mb-3">Lesson</h4>
                   <p className="italic text-gray-500">
                     The best growth lever isn&apos;t always inside your product. Sometimes the
                     highest-leverage move is finding where your customers already are — and making it
@@ -338,7 +338,7 @@ export default function Home() {
 
               <div className="space-y-8 text-gray-600 leading-relaxed">
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Context</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-600 mb-3">Context</h4>
                   <p>
                     A large percentage of LendingClub borrowers said they wanted loans to pay off credit card
                     debt, but after receiving funds, many weren&apos;t actually paying down their balances.
@@ -348,7 +348,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Problem</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-600 mb-3">Problem</h4>
                   <p>
                     Two teams with fundamentally different incentives had to build one product together. Risk
                     wanted maximum verification and friction to ensure debt paydown and minimize default risk.
@@ -358,7 +358,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Approach</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-600 mb-3">Approach</h4>
                   <div className="flex flex-col md:flex-row md:gap-6 md:items-start">
                     <div className="md:flex-1">
                       <ul className="space-y-3">
@@ -410,7 +410,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Outcome</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-600 mb-3">Outcome</h4>
                   <div className="flex flex-col sm:flex-row gap-6 items-start">
                     <div className="rounded-xl px-8 py-5 text-center shrink-0" style={{ backgroundColor: greenLight }}>
                       <p className="text-4xl font-bold" style={{ color: greenDark }}>~$900</p>
@@ -426,7 +426,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Lesson</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-600 mb-3">Lesson</h4>
                   <p className="italic text-gray-500">
                     Successful product leadership often isn&apos;t about choosing between customer experience
                     and risk management — it&apos;s about creating alignment around shared outcomes, then using
@@ -494,7 +494,7 @@ export default function Home() {
       {/* Contact */}
       <section id="contact" className="py-10 px-6 bg-gray-900 text-white">
         <div className="max-w-5xl mx-auto text-center">
-          <p className="text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: green }}>Contact</p>
+          <p className="text-xs font-semibold uppercase tracking-widest mb-4 text-green-400">Contact</p>
           <h2 className="text-4xl font-bold tracking-tight mb-4">Let&apos;s talk.</h2>
           <p className="text-lg text-gray-400 mb-10">
             Open to product leadership roles that are accountable for delivering business growth.
@@ -528,9 +528,9 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="py-6 px-6 bg-gray-900 border-t border-white/10">
-        <div className="max-w-5xl mx-auto flex justify-between text-sm text-gray-500">
-          <span>Brian My</span>
-          <span>© {new Date().getFullYear()}</span>
+        <div className="max-w-5xl mx-auto flex justify-between text-sm">
+          <span className="text-gray-400">Brian My</span>
+          <span className="text-gray-400">© {new Date().getFullYear()}</span>
         </div>
       </footer>
 
