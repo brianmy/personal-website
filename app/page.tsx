@@ -1,6 +1,8 @@
 import Image from "next/image";
-import ZendeskCarousel from "./ZendeskCarousel";
+import dynamic from "next/dynamic";
 import MobileNav from "./MobileNav";
+
+const ZendeskCarousel = dynamic(() => import("./ZendeskCarousel"), { ssr: false });
 
 const green = "#4a7c59";
 const greenLight = "#eef4f0";
