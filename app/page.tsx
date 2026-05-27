@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ZendeskCarousel from "./ZendeskCarousel";
+import MobileNav from "./MobileNav";
 
 const green = "#4a7c59";
 const greenLight = "#eef4f0";
@@ -11,7 +12,7 @@ export default function Home() {
 
       {/* Navigation */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100">
-        <nav className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+        <nav className="relative max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="relative w-9 h-9 rounded-full overflow-hidden shrink-0">
               <Image
@@ -23,14 +24,9 @@ export default function Home() {
                 priority
               />
             </div>
-            <span className="text-3xl font-bold tracking-tight" style={{ color: greenDark }}>Brian My</span>
+            <span className="text-xl md:text-3xl font-bold tracking-tight" style={{ color: greenDark }}>Brian My</span>
           </div>
-          <div className="flex gap-8 text-sm text-gray-500">
-            <a href="#work" className="hover:text-gray-900 transition-colors">Work</a>
-            <a href="#about" className="hover:text-gray-900 transition-colors">About</a>
-            <a href="#contact" className="hover:text-gray-900 transition-colors">Contact</a>
-            <a href="https://drive.google.com/file/d/1ibWCc1wFp1WxJ_JoWiYaXlBhkzEGHmZr/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 transition-colors">Resume</a>
-          </div>
+          <MobileNav />
         </nav>
       </header>
 
@@ -52,14 +48,14 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-b from-blue-950/25 via-black/30 to-blue-950/45" />
 
         {/* Content */}
-        <div className="relative z-10 max-w-5xl mx-auto px-6 w-full pt-24 pb-32">
-          <p className="text-xs font-semibold uppercase tracking-widest mb-6 text-white/60">
+        <div className="relative z-10 max-w-5xl mx-auto px-6 w-full pt-16 pb-16 md:pt-24 md:pb-32">
+          <p className="text-xs font-semibold uppercase tracking-widest mb-4 md:mb-6 text-white/60">
             Growth Product Leader
           </p>
-          <h1 className="text-5xl md:text-6xl font-bold tracking-tight leading-[1.1] mb-6 text-white max-w-2xl">
+          <h1 className="text-4xl md:text-6xl font-bold tracking-tight leading-[1.1] mb-4 md:mb-6 text-white max-w-2xl">
             Driven by customer obsession. Proven by growth metrics.
           </h1>
-          <p className="text-lg text-white leading-relaxed mb-10 max-w-xl">
+          <p className="text-base md:text-lg text-white leading-relaxed mb-6 md:mb-10 max-w-xl">
             I&apos;ve spent 15+ years building growth products at brands like Amazon,
             LendingClub, and Zendesk. Currently open to <strong>product leadership</strong> roles that are
             accountable for <strong>delivering business growth</strong>.
