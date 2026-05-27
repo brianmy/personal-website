@@ -31,7 +31,7 @@ const jsonLd = {
   "@type": "Person",
   name: "Brian My",
   url: "https://brianmy.com",
-  jobTitle: "Growth Product Leader",
+  jobTitle: "Director of Product Management",
   email: "brian.my@gmail.com",
   sameAs: ["https://www.linkedin.com/in/brianmy"],
   knowsAbout: [
