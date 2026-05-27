@@ -210,7 +210,8 @@ export default function Home() {
                   <h3 className="text-2xl font-bold">Growing Amazon Music at Scale</h3>
                 </div>
                 <div className="flex gap-2 shrink-0">
-                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: green }}>Awareness &amp; Activation</span>
+                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: green }}>Awareness</span>
+                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: green }}>Activation</span>
                   <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: green }}>Monetization</span>
                   <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: green }}>Consumer</span>
                 </div>
