@@ -211,7 +211,7 @@ export default function Home() {
                   <p>
                     As a Principal PM at Amazon Music, I led three growth product teams responsible for global
                     acquisition and retention across 60M+ customers. Amazon Music sat inside one of the
-                    world&apos;s most powerful distribution ecosystems — and still faced a significant awareness
+                    world&apos;s most powerful distribution ecosystems, yet still faced a significant awareness
                     problem.
                   </p>
                 </div>
@@ -222,7 +222,7 @@ export default function Home() {
                     Two gaps, same root cause. Tens of millions of Prime members didn&apos;t know Amazon Music
                     was included in their membership. And existing customers weren&apos;t upgrading to Amazon
                     Music Unlimited or understanding why it was worth paying for over Spotify or Apple Music.
-                    The discovery problem wasn&apos;t inside the app — it was before customers ever opened it.
+                    The discovery problem wasn&apos;t inside the app. It was before customers ever opened it.
                   </p>
                 </div>
 
@@ -232,22 +232,22 @@ export default function Home() {
                     <li className="flex gap-3">
                       <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
                       <span>
-                        <strong className="text-gray-900">Meet customers where they already are.</strong> My
-                        biggest bet: embedding an Amazon Music player directly into Amazon.com search results.
-                        A customer searching for Billie Eilish merchandise would discover they already had
-                        access to Amazon Music and could start listening immediately. I wrote the six-page
-                        PRFAQ, secured alignment across Amazon Music, Retail, and Prime leadership, and
-                        proposed it as a two-way door decision built for rapid experimentation. It launched
-                        after I left Amazon. It&apos;s still live on amazon.com today — which in
-                        Amazon&apos;s culture means it earned its place.
+                        <strong className="text-gray-900">Meet customers where they already are.</strong>{" "}
+                        My biggest bet: embedding an Amazon Music player directly into the amazon.com commerce
+                        experience. A customer searching for Billie Eilish merchandise would discover they
+                        already had access to Amazon Music and could start listening immediately. I wrote the
+                        six-page PRFAQ, secured alignment across Amazon Music, Retail, and Prime leadership,
+                        and proposed it as a two-way door decision built for rapid experimentation. It launched
+                        after I left Amazon. It&apos;s still live on amazon.com today. In Amazon&apos;s
+                        culture, that means it earned its place.
                       </span>
                     </li>
                     <li className="flex gap-3">
                       <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
                       <span>
                         <strong className="text-gray-900">Solve the cold-start problem.</strong> We introduced
-                        an Artist Taste Collection in the first-time user experience — a short quiz capturing
-                        favorite artists that immediately personalized the homepage with relevant
+                        an Artist Taste Collection in the first-time user experience: a short quiz capturing
+                        favorite artists that immediately personalized the Home experience with relevant
                         recommendations. Getting personalization right in session one is often the difference
                         between a retained user and a churned one.
                       </span>
@@ -257,7 +257,7 @@ export default function Home() {
                       <span>
                         <strong className="text-gray-900">Remove friction at the upgrade moment.</strong>{" "}
                         Inspired by Amazon&apos;s 1-Click Buy Now, I brought that same pattern into Amazon
-                        Music for AMU upgrades — requiring close collaboration with security, compliance, and
+                        Music for AMU upgrades, requiring close collaboration with security, compliance, and
                         finance to ensure we weren&apos;t eroding customer trust.
                       </span>
                     </li>
@@ -273,9 +273,8 @@ export default function Home() {
                     </div>
                     <p className="flex-1 mt-2">
                       A high-velocity A/B testing framework across iOS, Android, Desktop, and FireTV/Echo Show
-                      accelerated our learning cycles and drove a 104% year-over-year subscription increase.
-                      The retail discovery experience launched and remains live on amazon.com — across a global
-                      base of 60M+ customers.
+                      accelerated our learning cycles and drove a 104% year-over-year premium subscriber
+                      increase. The retail discovery experience launched and remains live on amazon.com.
                     </p>
                   </div>
                 </div>
@@ -311,7 +310,7 @@ export default function Home() {
                   <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Context</h4>
                   <p>
                     A large percentage of LendingClub borrowers said they wanted loans to pay off credit card
-                    debt — but after receiving funds, many weren&apos;t actually paying down their balances.
+                    debt, but after receiving funds, many weren&apos;t actually paying down their balances.
                     The credit and risk teams proposed a balance transfer product where LendingClub would pay
                     creditors directly instead of depositing cash.
                   </p>
@@ -333,8 +332,8 @@ export default function Home() {
                     <li className="flex gap-3">
                       <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
                       <span>
-                        Brought both sides together around a shared customer outcome — improving borrowers&apos;
-                        financial health — rather than debating features
+                        Brought both sides together around a shared customer outcome of improving borrowers&apos;
+                        financial health, rather than debating features
                       </span>
                     </li>
                     <li className="flex gap-3">
@@ -415,20 +414,20 @@ export default function Home() {
             </div>
             <div className="space-y-6 text-gray-600 leading-relaxed text-lg">
               <p>
-                The metric is never the problem. The problem is always upstream — in how a customer experiences
+                The metric is never the problem. The problem is always upstream: in how a customer experiences
                 the product, what they were promised, what they actually need. After fifteen years in growth,
                 that&apos;s the belief I keep coming back to.
               </p>
               <p>
                 I&apos;m a builder with a bias toward shipping. I&apos;d rather run a focused experiment and
                 learn fast than deliberate until the moment passes. What I&apos;ve found is that you can move
-                quickly <em>and</em> get it right — if you do the customer work first. I hold my teams to
+                quickly <em>and</em> get it right, if you do the customer work first. I hold my teams to
                 quantifying impact in both directions: what did customers feel, and what did it do to the
                 business metrics.
               </p>
               <p>
                 I care about building teams, not just products. The environments I&apos;m most proud of
-                weren&apos;t the ones that shipped the most — they were the ones where people were trusted,
+                weren&apos;t the ones that shipped the most. They were the ones where people were trusted,
                 engaged, and growing alongside the work. I want a seat at the table not because I need the
                 credit, but because product leaders who are in the room make better decisions for customers
                 and for the business.
