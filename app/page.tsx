@@ -31,7 +31,7 @@ export default function Home() {
       </header>
 
       {/* Hero */}
-      <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
+      <section id="home" className="relative min-h-screen min-h-[100svh] flex items-center overflow-hidden">
         {/* Video background */}
         <video
           autoPlay
