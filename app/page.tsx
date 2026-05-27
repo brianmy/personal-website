@@ -47,7 +47,7 @@ export default function Home() {
         </video>
 
         {/* Gradient overlay — dark at bottom for CTA legibility, lighter at top */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/45 to-black/70" />
+        <div className="absolute inset-0 bg-gradient-to-b from-blue-950/25 via-black/30 to-blue-950/45" />
 
         {/* Content */}
         <div className="relative z-10 max-w-5xl mx-auto px-6 w-full pt-24 pb-32">
@@ -106,10 +106,11 @@ export default function Home() {
                 <div>
                   <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Context</h4>
                   <p>
-                    In early 2025, Zendesk reorganized around a new Digital Segment — SMBs with small or growing
-                    support teams. The segment had seen multiple consecutive quarters of bookings contraction.
-                    I was brought in under a new GM to lead new business bookings with a focus on the self-service
-                    trial experience, later expanding to own onboarding and adoption for paying customers.
+                    Zendesk reorganized around a new customer segmentation strategy in 2025. A new Digital
+                    segment, companies with fewer than 50 employees, was defined. These primarily self-service
+                    customers made up a segment representing tens of millions in annual bookings, but the segment
+                    had been contracting over multiple consecutive quarters. As the product leader responsible
+                    for the Product Led Growth strategy, I set out to reverse the decline.
                   </p>
                 </div>
 
@@ -118,34 +119,35 @@ export default function Home() {
                   <p>
                     Trial signups were healthy, but activation and conversion were declining. New customers
                     entered a blank, configuration-heavy product and dropped off before reaching Zendesk&apos;s
-                    core &ldquo;aha moment&rdquo; — resolving a customer inquiry. The onboarding experience
-                    relied on guided tours of features, not on getting users to feel immediate value.
+                    core &ldquo;aha moment&rdquo;, resolving a customer inquiry using the platform. The existing
+                    trial and onboarding experience relied on guided tours of features, not on getting users to
+                    feel immediate value.
                   </p>
                 </div>
 
                 <div>
                   <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Approach</h4>
+                  <p className="mb-4">
+                    Reframed the problem around customer outcomes: trialists didn&apos;t want AI for its own
+                    sake. Instead, they wanted to know <em>&ldquo;How would Zendesk work for my business?&rdquo;</em>{" "}
+                    That insight led me to make a bet on generative AI to transform the trial experience into
+                    one guiding users to resolve their first ticket with real data, without touching any
+                    configuration.
+                  </p>
                   <ul className="space-y-3">
                     <li className="flex gap-3">
                       <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
                       <span>
-                        Reframed the problem around customer outcomes: users didn&apos;t want AI for its own
-                        sake — they wanted to know <em>&ldquo;How would Zendesk work for my business?&rdquo;</em>
+                        Built an AI-assisted onboarding experience that inferred company context from signup
+                        data, pre-configured help center content and workflows, and auto-generated sample
+                        tickets and support scenarios
                       </span>
                     </li>
                     <li className="flex gap-3">
                       <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
                       <span>
-                        Led the team to build an AI-assisted onboarding experience that inferred company context
-                        from signup data, used generative AI to pre-configure help center content and workflows,
-                        and auto-generated sample tickets and support scenarios
-                      </span>
-                    </li>
-                    <li className="flex gap-3">
-                      <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
-                      <span>
-                        Ran focused experiments using OpenAI&apos;s Web Search API to expedite user setup and
-                        get users to their first resolved inquiry faster
+                        Ran focused experiments using OpenAI&apos;s Web Search API to expedite user setup
+                        and accelerate time-to-first-resolved-inquiry
                       </span>
                     </li>
                     <li className="flex gap-3">
@@ -166,9 +168,11 @@ export default function Home() {
                       <p className="text-sm mt-1" style={{ color: green }}>increase in trial activation</p>
                     </div>
                     <p className="flex-1 mt-2">
-                      Combined with other Digital Segment initiatives, the team delivered a bookings inflection
-                      in Q3 — returning to quarter-over-quarter growth after multiple consecutive quarters of
-                      contraction. The AI-assisted setup also helped reposition Zendesk competitively as customer
+                      170% increase in trialists resolving a customer inquiry, a leading indicator to
+                      conversion. The AI-assisted experience, combined with other growth initiatives I directed,
+                      helped the team deliver a bookings inflection in Q3 2025, returning to quarter-over-quarter
+                      growth after multiple consecutive quarters of contraction. The experience also helped
+                      reposition Zendesk more competitively against Fin, Decagon, and Sierra as customer
                       expectations around AI rapidly increased.
                     </p>
                   </div>
@@ -177,10 +181,10 @@ export default function Home() {
                 <div>
                   <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Lesson</h4>
                   <p className="italic text-gray-500">
-                    AI works best when it solves a concrete customer problem rather than being treated as a
-                    standalone feature. Successful AI product development requires balancing speed,
-                    experimentation, and customer trust — especially when the technology and market expectations
-                    are evolving quickly.
+                    AI alone doesn&apos;t move metrics — solving a concrete customer problem does. The real
+                    work was understanding why trialists were failing, then using AI as the lever to eliminate
+                    that friction. We weren&apos;t rewarded for using AI. We were rewarded for balancing speed,
+                    experimentation, and a genuine customer insight.
                   </p>
                 </div>
               </div>
