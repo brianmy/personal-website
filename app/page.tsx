@@ -99,9 +99,9 @@ export default function Home() {
                   <h3 className="text-2xl font-bold">Reinvigorating Growth at Zendesk</h3>
                 </div>
                 <div className="flex gap-2 shrink-0">
-                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: green }}>Generative AI</span>
-                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: green }}>PLG</span>
-                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: green }}>B2B SaaS</span>
+                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: greenDark }}>Generative AI</span>
+                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: greenDark }}>PLG</span>
+                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: greenDark }}>B2B SaaS</span>
                 </div>
               </div>
 
@@ -173,7 +173,7 @@ export default function Home() {
                   <div className="flex flex-col sm:flex-row gap-6 items-start">
                     <div className="rounded-xl px-8 py-5 text-center shrink-0" style={{ backgroundColor: greenLight }}>
                       <p className="text-4xl font-bold" style={{ color: greenDark }}>170%</p>
-                      <p className="text-sm mt-1" style={{ color: green }}>increase in trial activation</p>
+                      <p className="text-sm mt-1" style={{ color: greenDark }}>increase in trial activation</p>
                     </div>
                     <p className="flex-1 mt-2">
                       170% increase in trialists resolving a customer inquiry, a leading indicator to
@@ -211,9 +211,9 @@ export default function Home() {
                   <h3 className="text-2xl font-bold">Growing Amazon Music at Scale</h3>
                 </div>
                 <div className="flex gap-2 shrink-0">
-                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: green }}>Awareness</span>
-                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: green }}>Activation</span>
-                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: green }}>Monetization</span>
+                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: greenDark }}>Awareness</span>
+                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: greenDark }}>Activation</span>
+                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: greenDark }}>Monetization</span>
                 </div>
               </div>
 
@@ -297,7 +297,7 @@ export default function Home() {
                   <div className="flex flex-col sm:flex-row gap-6 items-start">
                     <div className="rounded-xl px-8 py-5 text-center shrink-0" style={{ backgroundColor: greenLight }}>
                       <p className="text-4xl font-bold" style={{ color: greenDark }}>104%</p>
-                      <p className="text-sm mt-1" style={{ color: green }}>YoY subscription increase</p>
+                      <p className="text-sm mt-1" style={{ color: greenDark }}>YoY subscription increase</p>
                     </div>
                     <p className="flex-1 mt-2">
                       A high-velocity A/B testing framework across iOS, Android, Desktop, and FireTV/Echo Show
@@ -331,8 +331,8 @@ export default function Home() {
                   <h3 className="text-2xl font-bold">0→1 Launch of Balance Transfer Personal Loans</h3>
                 </div>
                 <div className="flex gap-2 shrink-0">
-                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: green }}>0 → 1</span>
-                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: green }}>Fintech</span>
+                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: greenDark }}>0 → 1</span>
+                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: greenDark }}>Fintech</span>
                 </div>
               </div>
 
@@ -414,7 +414,7 @@ export default function Home() {
                   <div className="flex flex-col sm:flex-row gap-6 items-start">
                     <div className="rounded-xl px-8 py-5 text-center shrink-0" style={{ backgroundColor: greenLight }}>
                       <p className="text-4xl font-bold" style={{ color: greenDark }}>~$900</p>
-                      <p className="text-sm mt-1" style={{ color: green }}>saved per borrower</p>
+                      <p className="text-sm mt-1" style={{ color: greenDark }}>saved per borrower</p>
                     </div>
                     <p className="flex-1 mt-2">
                       Significant reduction in interest rates, with many borrowers improving their credit scores
