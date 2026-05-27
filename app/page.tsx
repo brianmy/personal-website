@@ -100,7 +100,11 @@ export default function Home() {
                   </div>
                   <h3 className="text-2xl font-bold">Reinvigorating Growth at Zendesk</h3>
                 </div>
-                <span className="text-sm text-gray-400 shrink-0">Growth PM, Digital Segment</span>
+                <div className="flex gap-2 shrink-0">
+                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: green }}>Generative AI</span>
+                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: green }}>PLG</span>
+                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: green }}>B2B SaaS</span>
+                </div>
               </div>
 
               <div className="space-y-8 text-gray-600 leading-relaxed">
@@ -208,7 +212,11 @@ export default function Home() {
                   </div>
                   <h3 className="text-2xl font-bold">Growing Amazon Music at Scale</h3>
                 </div>
-                <span className="text-sm text-gray-400 shrink-0">Principal PM</span>
+                <div className="flex gap-2 shrink-0">
+                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: green }}>Awareness &amp; Activation</span>
+                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: green }}>Monetization</span>
+                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: green }}>Consumer</span>
+                </div>
               </div>
 
               <div className="space-y-8 text-gray-600 leading-relaxed">
@@ -323,7 +331,10 @@ export default function Home() {
                   </div>
                   <h3 className="text-2xl font-bold">0→1 Launch of Balance Transfer Personal Loans</h3>
                 </div>
-                <span className="text-sm text-gray-400 shrink-0">Growth PM</span>
+                <div className="flex gap-2 shrink-0">
+                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: green }}>0 → 1</span>
+                  <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ backgroundColor: greenLight, color: green }}>Fintech</span>
+                </div>
               </div>
 
               <div className="space-y-8 text-gray-600 leading-relaxed">
