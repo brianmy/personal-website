@@ -48,15 +48,19 @@ export default function ZendeskCarousel() {
           </div>
         ))}
       </div>
-      <div className="flex justify-center gap-1.5 mt-2">
+      <div className="flex justify-center mt-2">
         {slides.map((_, i) => (
           <button
             key={i}
             onClick={() => setCurrent(i)}
-            className="w-1.5 h-1.5 rounded-full transition-colors"
-            style={{ backgroundColor: i === current ? green : "#d1d5db" }}
+            className="w-6 h-6 flex items-center justify-center"
             aria-label={`Go to slide ${i + 1}`}
-          />
+          >
+            <span
+              className="w-1.5 h-1.5 rounded-full transition-colors"
+              style={{ backgroundColor: i === current ? green : "#d1d5db" }}
+            />
+          </button>
         ))}
       </div>
     </div>
