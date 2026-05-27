@@ -39,6 +39,7 @@ export default function Home() {
           loop
           playsInline
           preload="none"
+          poster="/hero-poster.jpg"
           className="absolute inset-0 w-full h-full object-cover"
         >
           <source src="/hero.mp4" type="video/mp4" />
@@ -106,7 +107,7 @@ export default function Home() {
 
               <div className="space-y-8 text-gray-600 leading-relaxed">
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Context</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Context</h4>
                   <p>
                     Zendesk reorganized around a new customer segmentation strategy in 2025. A new Digital
                     segment, companies with fewer than 50 employees, was defined. These primarily self-service
@@ -117,7 +118,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Problem</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Problem</h4>
                   <p>
                     Trial signups were healthy, but activation and conversion were declining. New customers
                     entered a blank, configuration-heavy product and dropped off before reaching Zendesk&apos;s
@@ -128,7 +129,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Approach</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Approach</h4>
                   <div className="flex flex-col md:flex-row md:gap-6 md:items-start">
                     <div className="md:flex-1">
                       <p className="mb-4">
@@ -168,7 +169,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Outcome</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Outcome</h4>
                   <div className="flex flex-col sm:flex-row gap-6 items-start">
                     <div className="rounded-xl px-8 py-5 text-center shrink-0" style={{ backgroundColor: greenLight }}>
                       <p className="text-4xl font-bold" style={{ color: greenDark }}>170%</p>
@@ -186,7 +187,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Lesson</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Lesson</h4>
                   <p className="italic text-gray-500">
                     AI alone doesn&apos;t move metrics — solving a concrete customer problem does. The real
                     work was understanding why trialists were failing, then using AI as the lever to eliminate
@@ -218,7 +219,7 @@ export default function Home() {
 
               <div className="space-y-8 text-gray-600 leading-relaxed">
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Context</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Context</h4>
                   <p>
                     As a Principal PM at Amazon Music, I led three growth product teams responsible for global
                     acquisition and retention across 60M+ customers. Amazon Music sat inside one of the
@@ -228,7 +229,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Problem</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Problem</h4>
                   <p>
                     Two gaps, same root cause. Tens of millions of Prime members didn&apos;t know Amazon Music
                     was included in their membership. And existing customers weren&apos;t upgrading to Amazon
@@ -238,7 +239,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Approach</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Approach</h4>
                   <div className="flex flex-col md:flex-row md:gap-6 md:items-start">
                     <div className="md:flex-1">
                       <ul className="space-y-4">
@@ -279,9 +280,10 @@ export default function Home() {
                     <div className="mt-4 md:mt-0 w-full md:w-80 shrink-0">
                       <div className="relative w-full rounded-xl overflow-hidden border border-gray-200" style={{ aspectRatio: "1200 / 952" }}>
                         <Image
-                          src="/amazon.png"
+                          src="/amazon.webp"
                           alt="Amazon Music discovery experience on amazon.com"
                           fill
+                          loading="lazy"
                           className="object-cover"
                           sizes="(max-width: 768px) 100vw, 640px"
                         />
@@ -291,7 +293,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Outcome</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Outcome</h4>
                   <div className="flex flex-col sm:flex-row gap-6 items-start">
                     <div className="rounded-xl px-8 py-5 text-center shrink-0" style={{ backgroundColor: greenLight }}>
                       <p className="text-4xl font-bold" style={{ color: greenDark }}>104%</p>
@@ -306,7 +308,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Lesson</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Lesson</h4>
                   <p className="italic text-gray-500">
                     The best growth lever isn&apos;t always inside your product. Sometimes the
                     highest-leverage move is finding where your customers already are — and making it
@@ -336,7 +338,7 @@ export default function Home() {
 
               <div className="space-y-8 text-gray-600 leading-relaxed">
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Context</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Context</h4>
                   <p>
                     A large percentage of LendingClub borrowers said they wanted loans to pay off credit card
                     debt, but after receiving funds, many weren&apos;t actually paying down their balances.
@@ -346,7 +348,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Problem</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Problem</h4>
                   <p>
                     Two teams with fundamentally different incentives had to build one product together. Risk
                     wanted maximum verification and friction to ensure debt paydown and minimize default risk.
@@ -356,7 +358,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Approach</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Approach</h4>
                   <div className="flex flex-col md:flex-row md:gap-6 md:items-start">
                     <div className="md:flex-1">
                       <ul className="space-y-3">
@@ -395,9 +397,10 @@ export default function Home() {
                     <div className="mt-4 md:mt-0 w-full md:w-60 shrink-0">
                       <div className="relative w-full rounded-xl overflow-hidden border border-gray-200" style={{ aspectRatio: "600 / 709" }}>
                         <Image
-                          src="/lendingclub.png"
+                          src="/lendingclub.webp"
                           alt="LendingClub balance transfer product"
                           fill
+                          loading="lazy"
                           className="object-cover"
                           sizes="(max-width: 768px) 100vw, 320px"
                         />
@@ -407,7 +410,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Outcome</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Outcome</h4>
                   <div className="flex flex-col sm:flex-row gap-6 items-start">
                     <div className="rounded-xl px-8 py-5 text-center shrink-0" style={{ backgroundColor: greenLight }}>
                       <p className="text-4xl font-bold" style={{ color: greenDark }}>~$900</p>
@@ -423,7 +426,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Lesson</h4>
+                  <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Lesson</h4>
                   <p className="italic text-gray-500">
                     Successful product leadership often isn&apos;t about choosing between customer experience
                     and risk management — it&apos;s about creating alignment around shared outcomes, then using
@@ -451,6 +454,7 @@ export default function Home() {
                   src="/bmy_profile.jpeg"
                   alt="Brian My"
                   fill
+                  loading="lazy"
                   sizes="(max-width: 768px) 67vw, 22vw"
                   className="object-cover object-top"
                 />

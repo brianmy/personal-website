@@ -4,12 +4,12 @@ import { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
 
 const slides = [
-  { src: "/zendesk-1.png", alt: "Zendesk AI-assisted onboarding — step 1" },
-  { src: "/zendesk-2.png", alt: "Zendesk AI-assisted onboarding — step 2" },
-  { src: "/zendesk-3.png", alt: "Zendesk AI-assisted onboarding — step 3" },
-  { src: "/zendesk-4.png", alt: "Zendesk AI-assisted onboarding — step 4" },
-  { src: "/zendesk-5.png", alt: "Zendesk AI-assisted onboarding — step 5" },
-  { src: "/zendesk-6.png", alt: "Zendesk AI-assisted onboarding — step 6" },
+  { src: "/zendesk-1.webp", alt: "Zendesk AI-assisted onboarding — step 1" },
+  { src: "/zendesk-2.webp", alt: "Zendesk AI-assisted onboarding — step 2" },
+  { src: "/zendesk-3.webp", alt: "Zendesk AI-assisted onboarding — step 3" },
+  { src: "/zendesk-4.webp", alt: "Zendesk AI-assisted onboarding — step 4" },
+  { src: "/zendesk-5.webp", alt: "Zendesk AI-assisted onboarding — step 5" },
+  { src: "/zendesk-6.webp", alt: "Zendesk AI-assisted onboarding — step 6" },
 ];
 
 const green = "#4a7c59";
