@@ -1,8 +1,6 @@
 import Image from "next/image";
-import dynamic from "next/dynamic";
 import MobileNav from "./MobileNav";
-
-const ZendeskCarousel = dynamic(() => import("./ZendeskCarousel"), { ssr: false });
+import CarouselLoader from "./CarouselLoader";
 
 const green = "#4a7c59";
 const greenLight = "#eef4f0";
@@ -166,7 +164,7 @@ export default function Home() {
                         </li>
                       </ul>
                     </div>
-                    <ZendeskCarousel />
+                    <CarouselLoader />
                   </div>
                 </div>
 
