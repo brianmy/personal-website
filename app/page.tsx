@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ZendeskCarousel from "./ZendeskCarousel";
 
 const green = "#4a7c59";
 const greenLight = "#eef4f0";
@@ -127,37 +128,42 @@ export default function Home() {
 
                 <div>
                   <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Approach</h4>
-                  <p className="mb-4">
-                    Reframed the problem around customer outcomes: trialists didn&apos;t want AI for its own
-                    sake. Instead, they wanted to know <em>&ldquo;How would Zendesk work for my business?&rdquo;</em>{" "}
-                    That insight led me to make a bet on generative AI to transform the trial experience into
-                    one guiding users to resolve their first ticket with real data, without touching any
-                    configuration.
-                  </p>
-                  <ul className="space-y-3">
-                    <li className="flex gap-3">
-                      <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
-                      <span>
-                        Built an AI-assisted onboarding experience that inferred company context from signup
-                        data, pre-configured help center content and workflows, and auto-generated sample
-                        tickets and support scenarios
-                      </span>
-                    </li>
-                    <li className="flex gap-3">
-                      <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
-                      <span>
-                        Ran focused experiments using OpenAI&apos;s Web Search API to expedite user setup
-                        and accelerate time-to-first-resolved-inquiry
-                      </span>
-                    </li>
-                    <li className="flex gap-3">
-                      <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
-                      <span>
-                        Partnered with GTM teams to surface product signals (stalled onboarding, strong buying
-                        intent) for proactive outreach; iterated across two experiment cycles over two months
-                      </span>
-                    </li>
-                  </ul>
+                  <div className="flex flex-col md:flex-row md:gap-6 md:items-start">
+                    <div className="md:flex-1">
+                      <p className="mb-4">
+                        Reframed the problem around customer outcomes: trialists didn&apos;t want AI for its own
+                        sake. Instead, they wanted to know <em>&ldquo;How would Zendesk work for my business?&rdquo;</em>{" "}
+                        That insight led me to make a bet on generative AI to transform the trial experience into
+                        one guiding users to resolve their first ticket with real data, without touching any
+                        configuration.
+                      </p>
+                      <ul className="space-y-3">
+                        <li className="flex gap-3">
+                          <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
+                          <span>
+                            Built an AI-assisted onboarding experience that inferred company context from signup
+                            data, pre-configured help center content and workflows, and auto-generated sample
+                            tickets and support scenarios
+                          </span>
+                        </li>
+                        <li className="flex gap-3">
+                          <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
+                          <span>
+                            Ran focused experiments using OpenAI&apos;s Web Search API to expedite user setup
+                            and accelerate time-to-first-resolved-inquiry
+                          </span>
+                        </li>
+                        <li className="flex gap-3">
+                          <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
+                          <span>
+                            Partnered with GTM teams to surface product signals (stalled onboarding, strong buying
+                            intent) for proactive outreach; iterated across two experiment cycles over two months
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                    <ZendeskCarousel />
+                  </div>
                 </div>
 
                 <div>
@@ -228,40 +234,47 @@ export default function Home() {
 
                 <div>
                   <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Approach</h4>
-                  <ul className="space-y-4">
-                    <li className="flex gap-3">
-                      <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
-                      <span>
-                        <strong className="text-gray-900">Meet customers where they already are.</strong>{" "}
-                        My biggest bet: embedding an Amazon Music player directly into the amazon.com commerce
-                        experience. A customer searching for Billie Eilish merchandise would discover they
-                        already had access to Amazon Music and could start listening immediately. I wrote the
-                        six-page PRFAQ, secured alignment across Amazon Music, Retail, and Prime leadership,
-                        and proposed it as a two-way door decision built for rapid experimentation. It launched
-                        after I left Amazon. It&apos;s still live on amazon.com today. In Amazon&apos;s
-                        culture, that means it earned its place.
-                      </span>
-                    </li>
-                    <li className="flex gap-3">
-                      <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
-                      <span>
-                        <strong className="text-gray-900">Solve the cold-start problem.</strong> We introduced
-                        an Artist Taste Collection in the first-time user experience: a short quiz capturing
-                        favorite artists that immediately personalized the Home experience with relevant
-                        recommendations. Getting personalization right in session one is often the difference
-                        between a retained user and a churned one.
-                      </span>
-                    </li>
-                    <li className="flex gap-3">
-                      <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
-                      <span>
-                        <strong className="text-gray-900">Remove friction at the upgrade moment.</strong>{" "}
-                        Inspired by Amazon&apos;s 1-Click Buy Now, I brought that same pattern into Amazon
-                        Music for AMU upgrades, requiring close collaboration with security, compliance, and
-                        finance to ensure we weren&apos;t eroding customer trust.
-                      </span>
-                    </li>
-                  </ul>
+                  <div className="flex flex-col md:flex-row md:gap-6 md:items-start">
+                    <div className="md:flex-1">
+                      <ul className="space-y-4">
+                        <li className="flex gap-3">
+                          <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
+                          <span>
+                            <strong className="text-gray-900">Meet customers where they already are.</strong>{" "}
+                            My biggest bet: embedding an Amazon Music player directly into the amazon.com commerce
+                            experience. A customer searching for Billie Eilish merchandise would discover they
+                            already had access to Amazon Music and could start listening immediately. I wrote the
+                            six-page PRFAQ, secured alignment across Amazon Music, Retail, and Prime leadership,
+                            and proposed it as a two-way door decision built for rapid experimentation. It launched
+                            after I left Amazon. It&apos;s still live on amazon.com today. In Amazon&apos;s
+                            culture, that means it earned its place.
+                          </span>
+                        </li>
+                        <li className="flex gap-3">
+                          <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
+                          <span>
+                            <strong className="text-gray-900">Solve the cold-start problem.</strong> We introduced
+                            an Artist Taste Collection in the first-time user experience: a short quiz capturing
+                            favorite artists that immediately personalized the Home experience with relevant
+                            recommendations. Getting personalization right in session one is often the difference
+                            between a retained user and a churned one.
+                          </span>
+                        </li>
+                        <li className="flex gap-3">
+                          <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
+                          <span>
+                            <strong className="text-gray-900">Remove friction at the upgrade moment.</strong>{" "}
+                            Inspired by Amazon&apos;s 1-Click Buy Now, I brought that same pattern into Amazon
+                            Music for AMU upgrades, requiring close collaboration with security, compliance, and
+                            finance to ensure we weren&apos;t eroding customer trust.
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="mt-4 md:mt-0 w-full md:w-80 h-44 rounded-xl bg-gray-100 border border-gray-200 flex items-center justify-center text-gray-400 text-sm shrink-0">
+                      Product screenshot
+                    </div>
+                  </div>
                 </div>
 
                 <div>
@@ -328,38 +341,45 @@ export default function Home() {
 
                 <div>
                   <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Approach</h4>
-                  <ul className="space-y-3">
-                    <li className="flex gap-3">
-                      <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
-                      <span>
-                        Brought both sides together around a shared customer outcome of improving borrowers&apos;
-                        financial health, rather than debating features
-                      </span>
-                    </li>
-                    <li className="flex gap-3">
-                      <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
-                      <span>
-                        Proposed an iterative rollout: MVP had users manually enter creditor info; risk teams
-                        maintained stronger validation controls; design teams accepted initial friction in
-                        exchange for fast learning
-                      </span>
-                    </li>
-                    <li className="flex gap-3">
-                      <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
-                      <span>
-                        Instrumented the funnel heavily across awareness, offer selection, creditor entry,
-                        funding conversion, and repayment behavior
-                      </span>
-                    </li>
-                    <li className="flex gap-3">
-                      <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
-                      <span>
-                        Drove subsequent iterations: pre-populating creditor info, simplifying the balance
-                        transfer flow, improving offer display relative to traditional cash loans, reducing
-                        cognitive overload during loan selection
-                      </span>
-                    </li>
-                  </ul>
+                  <div className="flex flex-col md:flex-row md:gap-6 md:items-start">
+                    <div className="md:flex-1">
+                      <ul className="space-y-3">
+                        <li className="flex gap-3">
+                          <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
+                          <span>
+                            Brought both sides together around a shared customer outcome of improving borrowers&apos;
+                            financial health, rather than debating features
+                          </span>
+                        </li>
+                        <li className="flex gap-3">
+                          <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
+                          <span>
+                            Proposed an iterative rollout: MVP had users manually enter creditor info; risk teams
+                            maintained stronger validation controls; design teams accepted initial friction in
+                            exchange for fast learning
+                          </span>
+                        </li>
+                        <li className="flex gap-3">
+                          <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
+                          <span>
+                            Instrumented the funnel heavily across awareness, offer selection, creditor entry,
+                            funding conversion, and repayment behavior
+                          </span>
+                        </li>
+                        <li className="flex gap-3">
+                          <span className="mt-0.5 shrink-0 font-medium" style={{ color: green }}>→</span>
+                          <span>
+                            Drove subsequent iterations: pre-populating creditor info, simplifying the balance
+                            transfer flow, improving offer display relative to traditional cash loans, reducing
+                            cognitive overload during loan selection
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="mt-4 md:mt-0 w-full md:w-80 h-44 rounded-xl bg-gray-100 border border-gray-200 flex items-center justify-center text-gray-400 text-sm shrink-0">
+                      Product screenshot
+                    </div>
+                  </div>
                 </div>
 
                 <div>
@@ -421,7 +441,7 @@ export default function Home() {
               <p>
                 I&apos;m a builder with a bias toward shipping. I&apos;d rather run a focused experiment and
                 learn fast than deliberate until the moment passes. What I&apos;ve found is that you can move
-                quickly <em>and</em> get it right, if you do the customer work first. I hold my teams to
+                quickly and get it right, if you do the customer work first. I hold my teams accountable to
                 quantifying impact in both directions: what did customers feel, and what did it do to the
                 business metrics.
               </p>
@@ -433,10 +453,10 @@ export default function Home() {
                 and for the business.
               </p>
               <p>
-                Outside of work: I run every day, bring the same analytical obsession to fantasy football
-                and baseball that I bring to activation funnels, and spend a lot of time on the sidelines.
-                My two sons are deep into swimming, baseball, and Scouts. I coach when I can. I show up
-                when I can&apos;t.
+                Outside of work: I enjoy my daily jog around Moraga, bring the same analytical obsession
+                to fantasy football and baseball that I bring to activation funnels, and spend a lot of
+                time on the sidelines. My two sons are deep into swimming, baseball, and Scouts. I coach
+                when I can. I show up when I can&apos;t.
               </p>
             </div>
           </div>
