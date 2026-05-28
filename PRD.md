@@ -1,8 +1,8 @@
 # PRD: Brian My — Personal Brand Website
 
-## Status: Built — Pending Launch
+## Status: Live ✅
 
-The site is built and pushed to GitHub (`brianmy/personal-website`). Remaining steps before launch: connect repo to Vercel, point `brianmy.com` DNS to Vercel.
+Site is live at **brianmy.com** (Vercel, auto-deploy from `brianmy/personal-website` on GitHub main). All launch items complete as of 2026-05-27.
 
 ---
 
@@ -44,8 +44,9 @@ A personal website for Brian My, a strategic Growth Product Leader with 15+ year
 
 ### 1. Nav (fixed, white/blur) ✅
 
-- Left: 36px circular headshot + "Brian My" in `text-3xl` Heather Green (`#3a6246`)
+- Left: 36px circular headshot + "Brian My" in `text-xl md:text-3xl` Heather Green (`#3a6246`)
 - Right: Work / About / Contact / Resume anchor links
+- Mobile: hamburger menu (`MobileNav.tsx`) with dropdown
 - **Resume** opens Google Drive PDF in new tab
 
 ---
@@ -58,7 +59,7 @@ A personal website for Brian My, a strategic Growth Product Leader with 15+ year
 
 **CTAs:** "See my work" (white pill) + "Get in touch" (border pill)
 
-**Design:** Full-bleed video background (`hero.mp4` — plants sprouting/growing), dark blue-tinted gradient overlay, white text.
+**Design:** Full-bleed video background (`hero.mp4` — plants sprouting/growing), dark blue-tinted gradient overlay, white text. Poster frame (`hero-poster.jpg`) for fast first paint. `min-h-[100svh]` for iOS Safari fix.
 
 ---
 
@@ -67,6 +68,8 @@ A personal website for Brian My, a strategic Growth Product Leader with 15+ year
 Three case study cards, each structured as: Context → Problem → Approach (with product screenshot) → Outcome (metric callout) → Lesson.
 
 Each card header includes: company favicon + company name + date range + tag pills.
+
+Screenshots: Zendesk uses auto-advancing carousel (6 WebP slides, 4s interval), Amazon and LendingClub use single WebP images with lazy loading.
 
 ---
 
@@ -84,28 +87,24 @@ Each card header includes: company favicon + company name + date range + tag pil
 → Ran focused experiments using OpenAI's Web Search API to expedite user setup and accelerate time-to-first-resolved-inquiry
 → Partnered with GTM teams to surface product signals (stalled onboarding, strong buying intent) for proactive outreach; iterated across two experiment cycles over two months
 
-**Product screenshot:** Auto-advancing carousel of 6 screenshots (`zendesk-1.png` through `zendesk-6.png`), 4-second interval, green dot indicators.
-
 **Outcome:** 170% increase in trial activation. Combined with other growth initiatives, delivered a bookings inflection in Q3 2025, returning to quarter-over-quarter growth after multiple consecutive quarters of contraction.
 
-**Lesson:** AI alone doesn't move metrics — solving a concrete customer problem does. The real work was understanding why trialists were failing, then using AI as the lever to eliminate that friction.
+**Lesson:** AI alone doesn't move metrics — solving a concrete customer problem does. The real work was understanding why trialists were failing, then using AI as the lever to eliminate that friction. We weren't rewarded for using AI. We were rewarded for balancing speed, experimentation, and a genuine customer insight.
 
 ---
 
 #### Case Study 2: Growing Amazon Music at Scale *(2018–2021)*
 
-**Tag pills:** Awareness & Activation · Monetization · Consumer
+**Tag pills:** Awareness · Activation · Monetization
 
-**Context:** As a Principal PM at Amazon Music, I led three growth product teams responsible for global acquisition and retention across 60M+ customers. Amazon Music sat inside one of the world's most powerful distribution ecosystems — and still faced a significant awareness problem.
+**Context:** As a Principal PM at Amazon Music, I led three growth product teams responsible for global acquisition and retention across 60M+ customers. Amazon Music sat inside one of the world's most powerful distribution ecosystems, yet still faced a significant awareness problem.
 
-**Problem:** Two gaps, same root cause. Tens of millions of Prime members didn't know Amazon Music was included in their membership. And existing customers weren't upgrading to Amazon Music Unlimited or understanding why it was worth paying for over Spotify or Apple Music. The discovery problem wasn't inside the app — it was before customers ever opened it.
+**Problem:** Two gaps, same root cause. Tens of millions of Prime members didn't know Amazon Music was included in their membership. And existing customers weren't upgrading to Amazon Music Unlimited or understanding why it was worth paying for over Spotify or Apple Music. The discovery problem wasn't inside the app. It was before customers ever opened it.
 
 **Approach:**
 → Meet customers where they already are. Embedded an Amazon Music player directly into the amazon.com commerce experience. Wrote the six-page PRFAQ, secured alignment across Amazon Music, Retail, and Prime leadership.
 → Solve the cold-start problem. Introduced an Artist Taste Collection in the FTUE — a short quiz capturing favorite artists that immediately personalized the Home experience.
 → Remove friction at the upgrade moment. Brought Amazon's 1-Click Buy Now pattern to AMU upgrades.
-
-**Product screenshot:** `amazon.png` (single image, 1200×952)
 
 **Outcome:** 104% YoY subscription increase. Retail discovery experience remains live on amazon.com.
 
@@ -123,8 +122,6 @@ Each card header includes: company favicon + company name + date range + tag pil
 
 **Approach:** Brought both sides together around a shared customer outcome. Proposed an iterative rollout. Instrumented the funnel heavily. Drove subsequent iterations.
 
-**Product screenshot:** `lendingclub.png` (single image, 600×709, displayed at `md:w-60`)
-
 **Outcome:** ~$900 saved per borrower. Product became foundational to LendingClub's personal loans experience.
 
 **Lesson:** Alignment around shared outcomes, then iterative experimentation to build trust.
@@ -135,9 +132,9 @@ Each card header includes: company favicon + company name + date range + tag pil
 
 **Heading:** The PM behind the metrics
 
-**Design:** Two-column sticky layout — heading + headshot left (2/3 width), copy right.
+**Design:** Two-column sticky layout — heading + headshot left, copy right.
 
-**Copy (finalized):**
+**Copy (final):**
 
 The metric is never the problem. The problem is always upstream — in how a customer experiences the product, what they were promised, what they actually need. After fifteen years in growth, that's the belief I keep coming back to.
 
@@ -171,12 +168,14 @@ Outside of work: I enjoy my daily jog around Moraga, bring the same analytical o
 
 | Token | Value | Usage |
 |---|---|---|
-| `green` | `#4a7c59` | Section labels, arrow bullets, pill text, dot indicators |
-| `greenLight` | `#eef4f0` | Pill backgrounds, metric callout box backgrounds |
-| `greenDark` | `#3a6246` | Metric numbers, nav "Brian My" text |
+| `green` | `#4a7c59` | Section labels on light bg, arrow bullets |
+| `greenLight` | `#eef4f0` | Tag pill backgrounds, metric callout box backgrounds |
+| `greenDark` | `#3a6246` | Metric numbers, nav "Brian My" text, **tag pill text**, **metric sub-labels** |
 | Background | `#ffffff` / `gray-50` | White for hero/about/contact, gray-50 for Work section |
 | Body text | `gray-600` | Case study body copy |
 | Headings | `gray-900` | Section and card headings |
+
+**WCAG note:** Tag pill text and metric sub-labels use `greenDark` (not `green`) on `greenLight` — `green` on `greenLight` is 4.42:1 (fails), `greenDark` is 5.6:1 (passes). Case study sub-labels use `gray-600` on white (6.6:1). Contact "CONTACT" label uses `text-green-400` on dark background.
 
 ---
 
@@ -188,9 +187,14 @@ Outside of work: I enjoy my daily jog around Moraga, bring the same analytical o
 | Styling | Tailwind CSS + inline style props for custom colors |
 | Font | Geist Sans (Google Fonts) |
 | Repo | `brianmy/personal-website` (public, GitHub) |
-| Hosting | Vercel (free tier) — not yet connected |
-| Domain | `brianmy.com` (Namecheap) — not yet pointed to Vercel |
+| Hosting | Vercel (free tier, auto-deploy from main) |
+| Domain | `brianmy.com` (Namecheap → Vercel A record + CNAME) |
 | Security | CSP, HSTS, X-Frame-Options, Referrer-Policy, Permissions-Policy in `next.config.ts` |
+| Analytics | Google Analytics 4 (G-6SCXFY0MX2), loaded via `next/script afterInteractive` |
+| Search Console | Verified via DNS TXT record; sitemap submitted |
+| SEO/AEO | JSON-LD Person schema in layout body; `sitemap.ts`; `robots.ts` |
+| OG Image | `app/opengraph-image.tsx` — 1200×630px, file-based Next.js metadata |
+| Performance | PageSpeed: Mobile 95/100/100/100, Desktop 100/100/100/100 |
 
 ---
 
@@ -200,23 +204,22 @@ Outside of work: I enjoy my daily jog around Moraga, bring the same analytical o
 |---|---|
 | Single-page vs multi-page | Single-page scrolling (no routing) |
 | Accent color | Heather Green `#4a7c59` / `#3a6246` |
-| Hero | Full-bleed video with blue-tinted dark overlay |
+| Hero | Full-bleed video with blue-tinted dark overlay + poster frame |
 | Case study order | Zendesk → Amazon → LendingClub (most recent first) |
-| Case study screenshots | Right-aligned in Approach section; carousel for Zendesk (6 slides), single image for Amazon and LendingClub |
-| Tag pills | Per-card, greenLight background / green text, rounded-full |
+| Case study screenshots | Right-aligned in Approach section; carousel for Zendesk (6 WebP slides), single WebP image for Amazon and LendingClub |
+| Tag pills | Per-card, greenLight background / greenDark text, rounded-full |
 | Resume | Google Drive PDF link — in nav and Contact section |
 | Blog/writing | Deferred to v2 |
 | Company logos | Favicons shown next to company names in Work section only |
 | Nav name | Text "Brian My" preferred over logo image |
+| Profile photo | Kept as JPEG — WebP conversion caused pixelation (Next.js Image needs high-res source) |
+| Email | brian.my@gmail.com on site; hello@brianmy.com deferred indefinitely |
+| Carousel hydration | `CarouselLoader.tsx` wrapper required — `ssr: false` not allowed in Server Components |
 
 ---
 
-## Remaining Before Launch
+## v2 Candidates (deferred)
 
-- [ ] **Confidentiality check** — Confirm Zendesk 170% metric and Q3 bookings inflection are safe to publish
-- [ ] **Vercel** — Connect `brianmy/personal-website` repo for auto-deploy
-- [ ] **DNS** — Point `brianmy.com` (Namecheap) to Vercel
-- [ ] **Custom email** — Set up hello@brianmy.com (Cloudflare Email Routing or Google Workspace)
-- [ ] **OG image** — Add social sharing preview image for link unfurls
-- [ ] **PageSpeed** — Test and tune after Vercel deploy (target: 90+ mobile)
-- [ ] **Amazon/LendingClub copy** — Context and Problem sections not yet updated with Brian's final copy
+- Writing/blog section
+- Apple touch icon (180×180px)
+- `prefers-reduced-motion` support for carousel
