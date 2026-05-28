@@ -24,12 +24,6 @@ Personal portfolio site for Brian My, a Growth Product Leader with 15+ years bui
 
 **Case study structure mirrors PM deliverables.** Each case study follows Context → Problem → Approach → Outcome → Lesson — the same structure a PM uses to communicate impact to stakeholders. The format is deliberate, not decorative.
 
-**Zendesk carousel over a single screenshot.** Six screenshots tell the product story better than one. Built as a client component with `ssr: false` dynamic import to defer hydration and minimize Total Blocking Time on mobile.
-
-**WebP for all case study images, JPEG for the profile photo.** Next.js Image handles resize at render time, so the profile source needs to stay high-res. Downscaling before converting caused visible quality loss.
-
-**`greenDark` (#3a6246) for text on light green backgrounds.** The primary green (#4a7c59) on the mint background (#eef4f0) produces a 4.42:1 contrast ratio — just below WCAG AA's 4.5:1 threshold for small text. The darker shade hits 5.6:1 and passes.
-
 ---
 
 ## Performance
