@@ -394,7 +394,7 @@ export default function Home() {
                         </li>
                       </ul>
                     </div>
-                    <div className="mt-4 md:mt-0 w-1/2 md:w-60 shrink-0">
+                    <div className="mt-4 md:mt-0 w-3/4 md:w-60 shrink-0">
                       <div className="relative w-full rounded-xl overflow-hidden border border-gray-200" style={{ aspectRatio: "600 / 709" }}>
                         <Image
                           src="/lendingclub.webp"
@@ -402,7 +402,7 @@ export default function Home() {
                           fill
                           loading="lazy"
                           className="object-cover"
-                          sizes="(max-width: 768px) 50vw, 320px"
+                          sizes="(max-width: 768px) 75vw, 320px"
                         />
                       </div>
                     </div>
