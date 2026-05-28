@@ -19,19 +19,19 @@ export default async function Image() {
           height: "100%",
           display: "flex",
           alignItems: "center",
-          padding: "80px",
-          gap: "72px",
+          padding: "60px",
+          gap: "60px",
         }}
       >
         <img
           src={photoSrc}
           style={{
-            width: 260,
-            height: 260,
+            width: 416,
+            height: 416,
             borderRadius: "50%",
             objectFit: "cover",
             objectPosition: "top",
-            border: "6px solid #4a7c59",
+            border: "9px solid #4a7c59",
             flexShrink: 0,
           }}
         />
@@ -39,7 +39,7 @@ export default async function Image() {
           <div
             style={{
               color: "#4a7c59",
-              fontSize: "22px",
+              fontSize: "35px",
               fontWeight: 600,
               letterSpacing: "0.15em",
               textTransform: "uppercase",
@@ -51,7 +51,7 @@ export default async function Image() {
           <div
             style={{
               color: "#111827",
-              fontSize: "96px",
+              fontSize: "130px",
               fontWeight: 700,
               lineHeight: 1,
               marginBottom: "22px",
@@ -62,14 +62,14 @@ export default async function Image() {
           <div
             style={{
               color: "#1f2937",
-              fontSize: "42px",
+              fontSize: "56px",
               fontWeight: 400,
               marginBottom: "8px",
             }}
           >
             Growth Product Leader
           </div>
-          <div style={{ color: "#4a7c59", fontSize: "26px" }}>
+          <div style={{ color: "#4a7c59", fontSize: "42px" }}>
             PLG · AI native · Builder
           </div>
         </div>
