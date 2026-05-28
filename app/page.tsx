@@ -463,15 +463,15 @@ export default function Home() {
 
             <div className="text-gray-600 leading-relaxed space-y-4 mb-8">
               <p>
-                In junior year at Michigan, I spent a full semester building a game as a class project.
-                It was harder than I expected, and I never quite finished it.
+                During my junior year at the University of Michigan, I spent a semester building a game
+                as a class project. It was harder than I expected, and I never quite finished it.
               </p>
               <p>
-                Twenty-some years later, on a Friday afternoon in March, I built one in a weekend.
-                I used a recently created MCP server to connect an LLM directly to Zendesk&apos;s help center
-                content, then asked myself: what&apos;s the most fun thing I can do with this? The answer was
-                a role-playing game where Zendesk&apos;s own documentation becomes the game world — bosses,
-                trivia battles, and all. My kids helped add polish over the weekend before we shipped it.
+                Twenty-some years later, I built one in a weekend in March. I used a recently created
+                MCP server to connect an LLM directly to Zendesk&apos;s help center content. Then asked
+                myself: what&apos;s the most fun thing I can do with this? The answer was a role-playing
+                game where Zendesk&apos;s own documentation becomes the game world: bosses, trivia battles,
+                and all. My kids helped add polish over the weekend before we shipped it.
               </p>
               <p className="italic text-gray-500">
                 The 2002 version: one semester, never finished. The 2026 version: one weekend, live on the internet.
