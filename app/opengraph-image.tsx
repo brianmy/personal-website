@@ -14,62 +14,63 @@ export default async function Image() {
     (
       <div
         style={{
-          background: "#111827",
+          background: "#eef4f0",
           width: "100%",
           height: "100%",
           display: "flex",
           alignItems: "center",
           padding: "80px",
-          gap: "64px",
+          gap: "72px",
         }}
       >
         <img
           src={photoSrc}
           style={{
-            width: 220,
-            height: 220,
+            width: 260,
+            height: 260,
             borderRadius: "50%",
             objectFit: "cover",
             objectPosition: "top",
-            border: "5px solid #4a7c59",
+            border: "6px solid #4a7c59",
+            flexShrink: 0,
           }}
         />
         <div style={{ display: "flex", flexDirection: "column" }}>
           <div
             style={{
               color: "#4a7c59",
-              fontSize: "18px",
+              fontSize: "22px",
               fontWeight: 600,
               letterSpacing: "0.15em",
               textTransform: "uppercase",
-              marginBottom: "16px",
+              marginBottom: "18px",
             }}
           >
             brianmy.com
           </div>
           <div
             style={{
-              color: "white",
-              fontSize: "84px",
+              color: "#111827",
+              fontSize: "96px",
               fontWeight: 700,
               lineHeight: 1,
-              marginBottom: "20px",
+              marginBottom: "22px",
             }}
           >
             Brian My
           </div>
           <div
             style={{
-              color: "#9ca3af",
-              fontSize: "34px",
+              color: "#1f2937",
+              fontSize: "42px",
               fontWeight: 400,
-              marginBottom: "24px",
+              marginBottom: "8px",
             }}
           >
             Growth Product Leader
           </div>
-          <div style={{ color: "#4b5563", fontSize: "22px" }}>
-            Amazon · Zendesk · LendingClub
+          <div style={{ color: "#4a7c59", fontSize: "26px" }}>
+            PLG · AI native · Builder
           </div>
         </div>
       </div>
