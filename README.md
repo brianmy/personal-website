@@ -4,6 +4,8 @@ Personal portfolio site for Brian My, a Growth Product Leader with 15+ years bui
 
 **Live site:** [brianmy.com](https://brianmy.com)
 
+![brianmy.com](docs/screenshot.png)
+
 ---
 
 ## Stack
