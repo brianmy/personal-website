@@ -79,7 +79,7 @@ export default function Home() {
       </section>
 
       {/* Work */}
-      <section id="work" className="py-10 px-6 bg-gray-50">
+      <section id="work" className="py-10 px-6 bg-gray-50 scroll-mt-10">
         <div className="max-w-5xl mx-auto">
           <p className="text-xs font-semibold uppercase tracking-widest mb-3" style={{ color: green }}>Work</p>
           <h2 className="text-4xl font-bold tracking-tight mb-8">Selected case studies</h2>
@@ -441,7 +441,7 @@ export default function Home() {
       </section>
 
       {/* Side Projects */}
-      <section id="projects" className="py-10 px-6 bg-white">
+      <section id="projects" className="py-10 px-6 bg-white scroll-mt-10">
         <div className="max-w-5xl mx-auto">
           <p className="text-xs font-semibold uppercase tracking-widest mb-3" style={{ color: green }}>Side Quest</p>
           <h2 className="text-4xl font-bold tracking-tight mb-8">Built for fun</h2>
@@ -529,7 +529,7 @@ export default function Home() {
       </section>
 
       {/* About */}
-      <section id="about" className="py-10 px-6 bg-white">
+      <section id="about" className="py-10 px-6 bg-white scroll-mt-10">
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
             <div className="md:sticky md:top-32">
@@ -580,9 +580,9 @@ export default function Home() {
       </section>
 
       {/* Contact */}
-      <section id="contact" className="py-10 px-6 bg-gray-900 text-white">
+      <section id="contact" className="py-10 px-6 bg-gray-900 text-white scroll-mt-10">
         <div className="max-w-5xl mx-auto text-center">
-          <p className="text-xs font-semibold uppercase tracking-widest mb-4 text-green-400">Contact</p>
+          <p className="text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: greenDark }}>Contact</p>
           <h2 className="text-4xl font-bold tracking-tight mb-4">Let&apos;s talk.</h2>
           <p className="text-lg text-gray-400 mb-10">
             Open to product leadership roles that are accountable for delivering business growth.
