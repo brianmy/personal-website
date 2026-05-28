@@ -52,6 +52,14 @@ Scores from Google PageSpeed Insights:
 
 ---
 
+## How It Was Built
+
+- **Video:** Generated with [Google Flow](https://flow.google) — prompted and iterated to get the plants-sprouting growth metaphor right
+- **Code:** Built with [Claude Code](https://claude.ai/code) (Anthropic's AI coding tool) — architecture, implementation, performance tuning, and accessibility fixes
+- **Content:** Written by me — the case study copy, about section, and framing of each project reflect my own thinking and voice
+
+---
+
 ## Getting Started
 
 ```bash
